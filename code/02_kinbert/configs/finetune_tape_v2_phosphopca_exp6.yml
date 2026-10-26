@@ -1,0 +1,143 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# Config for finetune_tape_replay_distill.py
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Three mechanisms (each independently toggleable):
+#   1. Partial unfreeze last N blocks + discriminative LR
+#   2. Mixed replay from original public training data
+#   3. Distillation from frozen teacher (your original trained model)
+#
+# Usage:
+#   python finetune_tape_replay_distill.py --config configs/config_finetune.yml
+#
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ── NEW experimental data ──
+train_csv: "/ksi_ml/data/splits_phosphopca_finetuning/train.csv"
+val_csv:   "/ksi_ml/data/splits_phosphopca_finetuning/val.csv"
+test_csv:  "/ksi_ml/data/splits_phosphopca_finetuning/test.csv"
+
+# Point test2 at the ORIGINAL public test set to monitor forgetting
+test2_csv: "/ksi_ml/data/splits_public/test.csv"
+
+# ── Run ──
+run_name: "finetune_tape_v2_phosphopca_exp6"
+out_dir:  "/ksi_ml/runs"
+
+# ── Backbone ──
+tape_model_name: "bert-base"
+max_len: 768
+with_sep: true
+
+# ── Your fully-trained checkpoint (from original public-data training) ──
+# Used for: (a) initialising student weights, (b) frozen teacher for distillation
+pretrained_ckpt: "/ksi_ml/runs/exp_tape_bertbase_sep_v2_long/checkpoints/best.pt"
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 1. PARTIAL UNFREEZE + DISCRIMINATIVE LR
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Everything frozen except:
+#   - last N transformer blocks → lr * backbone_lr_mult  (slow update)
+#   - classifier head           → lr * head_lr_mult      (faster update)
+#
+unfreeze_last_n_blocks: 8     # 0 = head-only, 1 = last block + head, 2 = last 2 + head
+
+lr: 5.0e-4                   # base learning rate
+backbone_lr_mult: 1.0        # unfrozen blocks get 5e-4 * 0.1 = 5e-5
+head_lr_mult: 1.0            # classifier head gets 5e-4 * 1.0 = 5e-4
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 2. MIXED REPLAY
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Feed a mixture of experimental + original data each batch.
+# Set replay_csv to null or replay_ratio to 0.0 to disable.
+#
+# replay_ratio = fraction of each batch drawn from replay (original) data.
+#   0.0  → pure experimental (no replay)
+#   0.3  → 30% original, 70% experimental  (good starting point)
+#   0.5  → equal mix
+#
+replay_csv:   "/ksi_ml/data/splits_public/train.csv"
+replay_ratio: 0.2
+replay_epoch_length: "experimental"   # experimental | replay | max
+# "experimental" = 1 epoch = 1 pass through experimental data (recommended)
+# "replay"       = 1 epoch = 1 pass through replay data
+# "max"          = 1 epoch = max(experimental, replay) samples
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 3. DISTILLATION
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Frozen teacher (your original model) produces soft targets.
+# Loss = (1 - alpha) * BCE  +  alpha * KL(student || teacher)
+#
+# Set distill_alpha to 0.0 to disable distillation entirely.
+#
+distill_alpha: 0.1            # 0.0 = off;  0.3 = 30% distill + 70% BCE
+distill_temperature: 3.0      # >1 softens distributions; 2-4 typical
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Training
+# ═══════════════════════════════════════════════════════════════════════════
+epochs: 40
+batch_size: 32
+grad_accum: 1
+num_workers: 4
+bf16: false
+allow_tf32: true
+
+use_pos_weight: true
+
+optimizer:
+  type: sgd       # sgd | adamw
+  lr: 0.001
+  momentum: 0.9
+  nesterov: true
+weight_decay: 0.0
+
+scheduler:
+  type: plateau
+  monitor: val_auprc     # val_loss | val_auprc | val_mcc | val_f1
+  mode: max
+  factor: 0.5
+  patience: 2
+  min_lr: 1.0e-6
+
+threshold_policy: val_max_mcc   # fixed_0.5 | val_max_mcc | val_max_f1
+ks: [50, 100, 200]
+early_stop_metric: auprc
+patience: 5
+test_on_val_improve: true
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Suggested ablation configs (copy this file and change these):
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# A) Unfreeze only, no replay, no distillation:
+#      replay_csv: null
+#      replay_ratio: 0.0
+#      distill_alpha: 0.0
+#
+# B) Unfreeze + replay, no distillation:
+#      replay_ratio: 0.3
+#      distill_alpha: 0.0
+#
+# C) Unfreeze + distillation, no replay:
+#      replay_csv: null
+#      distill_alpha: 0.3
+#
+# D) All three (this config as-is):
+#      replay_ratio: 0.3
+#      distill_alpha: 0.3
+#
+# E) Head-only + replay + distillation (most conservative):
+#      unfreeze_last_n_blocks: 0
+#      replay_ratio: 0.3
+#      distill_alpha: 0.5

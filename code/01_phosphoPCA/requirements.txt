@@ -1,0 +1,72 @@
+# Environment for code/01_phosphoPCA (phospho-PCA screen pipeline).
+#
+# Three environments were used, and the split matters: the PyMC fits and their
+# QC need an older numpy/arviz stack than the plotting notebooks, and the two
+# cannot read each other's pickles. Pinned versions below are the ones the
+# deposited results were produced with; the dockerfiles they come from are kept
+# in _source_scripts/dockerfiles/.
+#
+# ---------------------------------------------------------------------------
+# 1. Stage 00 - reads to counts
+# ---------------------------------------------------------------------------
+# Not pip-installable; two command-line tools, run as recorded in
+# 00_reads_to_counts.sh:
+#   mageck == 0.5.9.5          (conda, python 3.10 env)
+#   fastp                      (merge mode; the version string is not retained
+#                               in the surviving HTML reports, so unpinned)
+#
+# ---------------------------------------------------------------------------
+# 2. Stages 01-04, 06-07 and the figure scripts  (the "analysis" env)
+# ---------------------------------------------------------------------------
+# _source_scripts/dockerfiles/ksi-analysis/Dockerfile, ksi-hhmi/Dockerfile:
+#   conda create -n pytorch_env python=3.11
+#   pip install -U matplotlib seaborn plotnine scikit-learn pandas numpy
+#   conda install -c conda-forge jupyterlab
+# The versions those images resolved to, plus what the scripts actually import:
+python>=3.11
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+plotnine>=0.13          # information_content_calculator, GO dot plots
+biopython>=1.83         # translation, MAFFT-driven NJ tree
+tqdm>=4.66              # stage 01 read loop
+openpyxl>=3.1           # Kinexus .xlsx (fig05 panel D)
+matplotlib-venn>=1.1    # overlap plots in the source notebooks
+ete3>=3.1               # fig06 panel A cross-tree distances
+xlrd                    # only if an older .xls shows up; not needed for the
+                        # deposited kinexus_results.xlsx
+#
+# Not pip-installable, needed by fig06 panel A:
+#   mafft                     conda install -c bioconda mafft
+#
+# ---------------------------------------------------------------------------
+# 3. Stage 05 and the Bayesian QC  (the "pymc" env)
+# ---------------------------------------------------------------------------
+# The fits in decoupling_out/ were produced in the container built from
+# _source_scripts/dockerfiles/pymc/Dockerfile (python 3.9, conda-forge
+# "pymc>=5", numpyro, scipy 1.12, jax-cuda). Inside the notebook, h5py was
+# reinstalled and netCDF4 added before arviz could write the posteriors:
+#   pip uninstall -y h5py && pip install --no-cache-dir h5py && pip install netCDF4
+#
+# The QC folders (figures/bayes_fit_qc, figures/seq_replicate_qc) were run in a
+# separate, documented conda env, which is the one to use for a re-run:
+#
+#   conda create -n ksi_bayes_qc -c conda-forge \
+#       python=3.11 pymc=5.20.1 pytensor=2.27.1 "arviz<0.22" \
+#       matplotlib=3.9 xarray=2025.1 h5netcdf netcdf4 pandas scipy seaborn
+#
+# Two constraints behind those pins, from figures/bayes_fit_qc/README.md:
+#   * conda-forge pytensor 3.x builds fail to import, hence pytensor 2.27.1;
+#   * arviz 0.21 requires matplotlib < 3.10.
+# That env resolves to numpy 1.26, so it cannot unpickle the numpy-2 .pkl files
+# written by environment 2. The stage 05 and QC scripts only read .nc and .csv,
+# which is deliberate - keep it that way.
+#
+# pymc==5.20.1
+# pytensor==2.27.1
+# arviz<0.22
+# xarray>=2025.1
+# h5netcdf
+# netcdf4

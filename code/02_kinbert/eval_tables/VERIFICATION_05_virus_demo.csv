@@ -1,0 +1,45 @@
+figure,quantity,regenerated,figure_value,abs_diff,tolerance,match
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / NEK10 logit,3.4531,3.4531,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / ICK logit,3.1406,3.1406,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / PCTAIRE1 logit,3.0625,3.0625,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / MOK logit,3.0,3.0,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / PCTAIRE2 logit,2.7812,2.7812,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / GSK3B logit,2.7031,2.7031,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / GSK3A logit,2.5469,2.5469,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / CDC7 logit,2.4531,2.4531,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / CDKL2 logit,2.375,2.375,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / PCTAIRE3 logit,2.3594,2.3594,0.0,1e-09,True
+eval_virus_dms_kinase_psite_demo,number of kinases on the x axis,23.0,23.0,0.0,0.0,True
+eval_virus_dms_kinase_psite_demo,kinase axis matches the figure,0.0,0.0,0.0,0.0,True
+eval_virus_dms_kinase_psite_demo,number of phospho-sites on the y axis,20.0,20.0,0.0,0.0,True
+eval_virus_dms_kinase_psite_demo,colour-scale maximum,8.0625,8.0625,0.0,1e-09,True
+eval_virus_dms_drug_kinase_demo,number of kinases on the x axis,22.0,22.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,number of drugs on the y axis,44.0,44.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,grid cells,968.0,968.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets AKT1,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets ALK,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets CDC2,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets CDK2,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets CDK4,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets CDK5,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets CDK7,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets CK1e,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets Erk1,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets Erk2,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets Erk7,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets FLT3,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets FLT4,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets FMS,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets GSK3B,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets JAK2,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets KDR,1.0,1.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets PFTAIRE2,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets PKCa,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets PKCb,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets PKCe,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_kinase_demo,XL820 targets SRPK2,0.0,0.0,0.0,0.0,True
+eval_virus_dms_drug_psite_demo,number of drugs on the x axis,42.0,42.0,0.0,0.0,True
+eval_virus_dms_drug_psite_demo,number of phospho-sites on the y axis,19.0,19.0,0.0,0.0,True
+eval_virus_dms_drug_psite_demo,grid cells,798.0,798.0,0.0,0.0,True
+eval_virus_dms_drug_psite_demo,colour-scale maximum,4.03125,4.03125,0.0,1e-09,True
+eval_virus_dms_drug_psite_demo,no rows for a drug named Erk1,0.0,0.0,0.0,0.0,True

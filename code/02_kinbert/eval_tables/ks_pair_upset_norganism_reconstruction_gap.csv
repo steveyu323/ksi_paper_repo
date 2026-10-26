@@ -1,0 +1,5 @@
+category,set_size,matrix_row,reconstructed_set_size,difference
+Cell Lysate LC-MS,1,0,1,0
+PhosphoSitePlus,10,1,10,0
+Phospho.ELM,11,2,11,0
+Kinasephos3.0,92,3,92,0

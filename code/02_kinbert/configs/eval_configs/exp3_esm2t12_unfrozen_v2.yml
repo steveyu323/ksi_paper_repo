@@ -1,0 +1,25 @@
+training_command: "python ../train/train_pair_interaction.py --config ../../configs/exp3_esm2t12_unfrozen_v2.yml"
+
+output_dir: "eval_outputs"
+
+# optional (otherwise inferred from run_name in the training yaml)
+model_id: "exp3_esm2t12_unfrozen_v2"
+
+batch_size: 64
+num_workers: 4
+
+datasets:
+  # - id: "db_only"
+  #   csv: "/ksi_ml/data/pairs_v1.csv"
+  # - id: "db_lysate"
+  #   csv: "/ksi_ml/data/pairs_v2.csv"
+  # - id: "yeast_human"
+  #   csv: "/ksi_ml/data/pairs_yeast.csv"
+  # - id: "linkphinder"
+  #   csv: "/ksi_ml/data/pairs_linkphinder.csv"
+  # - id: "y2h"
+  #   csv: "/ksi_ml/data/pairs_phosphonetwork.csv"
+    - id: "phosformer_train"
+      csv: "../../data/pairs_phosphomer_train.csv"
+    - id: "phosformer_test"
+      csv: "../../data/pairs_phosphomer_test.csv"

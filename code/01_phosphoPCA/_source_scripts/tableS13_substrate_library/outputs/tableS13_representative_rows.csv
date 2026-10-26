@@ -1,0 +1,11 @@
+substrate_id,library,uniprot_acc,all_uniprot_acc,n_protein_matches,phosphosite_position,phosphoacceptor,window_15mer,substrate_class,design_set,control_polarity,spikein_kinase_acc,spikein_reporter_domain,spikein_db_split,mapping_status,recovered_in_screen,n_kinases_recovered
+SUB-ST-0466,ST,Q0IIL7,Q0IIL7,1,115,S,AAEEEDESILDTVIK,Candidate (PhosphoSitePlus),psp_random,,,,,mapped,True,13
+SUB-ST-0467,ST,P43618,P43618,1,14,T,AAGNNENTEVSEIRT,Candidate (PhosphoSitePlus),psp_random,,,,,mapped,True,11
+SUB-ST-0001,ST,P13405,P13405,1,243,S,AAIPINGSPRTPRRG,Control (documented),spike_in,negative,P53350,WW,train_tn,mapped,True,12
+SUB-ST-0002,ST,A0A287AI49,A0A287AI49;F1M801;P53995;Q9H1A4,4,355,S,AALSRAHSPALGVHS,Control (documented),spike_in,positive,P53350,WW,train_pos,mapped,True,13
+SUB-Y-0152,Y,O75121,O75121,1,287,Y,AADRDEVYTIPNSLK,Candidate (PhosphoSitePlus),psp_random,,,,,mapped,True,6
+SUB-Y-0153,Y,Q03160,Q03160;Q14451,2,341,Y,AAFRLFKYGVQLYKN,Candidate (PhosphoSitePlus),psp_random,,,,,mapped,True,6
+SUB-Y-1392,Y,F8VVM2,F8VVM2;F8VWQ0;Q00325-2,3,54,Y,AAAAVEEYSCEFGSA,Candidate (animal phosphoproteome),animal_random,,,,,mapped,True,7
+SUB-Y-1393,Y,A0A0A0MRA5,A0A0A0MRA5;B7Z4B8;D4A962;M0R3F1;Q9BUJ2,5,402,Y,AARKKRNYILDQTNV,Candidate (animal phosphoproteome),animal_random,,,,,mapped,True,7
+SUB-Y-0001,Y,Q96I25,Q96I25,1,214,Y,AAIPPPVYEEQDRPR,Control (documented),spike_in,positive,P06241;P07949,SH2,test_pos,mapped,True,7
+SUB-Y-0002,Y,Q06187,Q06187,1,279,Y,AEDSIEMYEWYSKHM,Control (documented),spike_in,positive,P06241,SH2,test_pos,mapped,True,7

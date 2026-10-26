@@ -1,0 +1,19 @@
+figure,quantity,regenerated,figure_value,abs_diff,tolerance,match
+ks_pair_upset.pdf,Phospho.ELM: intersections sum to its set size,2299.0,2299.0,0.0,0,True
+ks_pair_upset.pdf,PhosphoSitePlus: intersections sum to its set size,22073.0,22073.0,0.0,0,True
+ks_pair_upset.pdf,Kinasephos3.0: intersections sum to its set size,32154.0,32154.0,0.0,0,True
+ks_pair_upset.pdf,Cell Lysate LC-MS: intersections sum to its set size,132284.0,132284.0,0.0,0,True
+ks_pair_upset.pdf,every intersection has a count,14.0,14.0,0.0,0,True
+ks_pair_upset.pdf,every intersection has at least one member,14.0,14.0,0.0,0,True
+ks_pair_upset_nkinase.pdf,Cell Lysate LC-MS: intersections sum to its set size,331.0,331.0,0.0,0,True
+ks_pair_upset_nkinase.pdf,Phospho.ELM: intersections sum to its set size,336.0,336.0,0.0,0,True
+ks_pair_upset_nkinase.pdf,PhosphoSitePlus: intersections sum to its set size,818.0,818.0,0.0,0,True
+ks_pair_upset_nkinase.pdf,Kinasephos3.0: intersections sum to its set size,2277.0,2277.0,0.0,0,True
+ks_pair_upset_nkinase.pdf,every intersection has a count,12.0,12.0,0.0,0,True
+ks_pair_upset_nkinase.pdf,every intersection has at least one member,12.0,12.0,0.0,0,True
+ks_pair_upset_norganism.pdf,Cell Lysate LC-MS: intersections sum to its set size,1.0,1.0,0.0,0,True
+ks_pair_upset_norganism.pdf,PhosphoSitePlus: intersections sum to its set size,10.0,10.0,0.0,0,True
+ks_pair_upset_norganism.pdf,Phospho.ELM: intersections sum to its set size,11.0,11.0,0.0,0,True
+ks_pair_upset_norganism.pdf,Kinasephos3.0: intersections sum to its set size,92.0,92.0,0.0,0,True
+ks_pair_upset_norganism.pdf,every intersection has a count,5.0,5.0,0.0,0,True
+ks_pair_upset_norganism.pdf,every intersection has at least one member,5.0,5.0,0.0,0,True

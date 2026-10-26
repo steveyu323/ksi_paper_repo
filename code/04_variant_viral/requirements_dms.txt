@@ -1,0 +1,10 @@
+# Data manipulation
+pandas
+numpy
+scikit-image>=0.14.5
+scipy
+matplotlib
+joypy
+statsmodels
+dms_tools2
+tqdm>=4.45.0,<5

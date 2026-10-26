@@ -1,0 +1,9 @@
+figure,quantity,regenerated,figure_value,abs_diff,tolerance,match
+eval_ksi_bar.png / eval_ksi_roc.png,Phosformer / ROC_AUC,0.4947444238305757,0.494744,4.238305756909533e-07,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,Phosformer / PR_AUC,0.7593621558578058,0.759362,1.5585780577254127e-07,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,Kolossus / ROC_AUC,0.4009837541317244,0.400984,2.458682756278918e-07,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,Kolossus / PR_AUC,0.6915478585747515,0.691548,1.4142524851212812e-07,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE / ROC_AUC,0.7584726412178475,0.758473,3.587821524320134e-07,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE / PR_AUC,0.8798212494099231,0.879821,2.4940992315869437e-07,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE + Geometry / ROC_AUC,0.7248609574758718,0.724861,4.252412821870166e-08,5e-06,True
+eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE + Geometry / PR_AUC,0.8526527802721633,0.852653,2.1972783670332063e-07,5e-06,True

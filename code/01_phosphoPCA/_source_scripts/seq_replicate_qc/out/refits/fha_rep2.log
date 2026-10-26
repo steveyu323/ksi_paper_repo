@@ -1,0 +1,23 @@
+[fha_rep2] 18467 observations, 15 kinases, 1958 substrates
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [sigma_g, g, sigma_delta, delta, sigma_b, b_raw, alpha]
+                                                                                
+                              Step      Grad      Sampli…                       
+  Progre…   Draws   Diverg…   size      evals     Speed     Elapsed   Remaini…  
+ ────────────────────────────────────────────────────────────────────────────── 
+  ━━━━━━━   2000    1         0.01      255       1.67      0:19:56   0:00:00   
+                                                  draws/s                       
+  ━━━━━━━   2000    0         0.01      511       1.00      0:33:22   0:00:00   
+                                                  s/draws                       
+  ━━━━━━━   2000    0         0.04      127       1.88      0:17:40   0:00:00   
+                                                  draws/s                       
+  ━━━━━━━   2000    0         0.01      511       1.04      0:34:38   0:00:00   
+                                                  s/draws                       
+                                                                                
+Sampling 4 chains for 1_000 tune and 1_000 draw iterations (4_000 + 4_000 draws total) took 2078 seconds.
+There were 1 divergences after tuning. Increase `target_accept` or reparameterize.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+[fha_rep2] sampled in 2141 s
+[fha_rep2] done

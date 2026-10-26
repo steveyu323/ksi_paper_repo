@@ -1,0 +1,22 @@
+training_command: "python ../train/train_pair_interaction_tape.py --config ../../configs/exp_tape_bertbase_sep_v2_early_loss.yml"
+
+output_dir: "./eval_outputs"
+
+batch_size: 128
+num_workers: 8
+
+datasets:
+  # - id: "db_only"
+  #   csv: "/ksi_ml/data/pairs_v1.csv"
+  # - id: "db_lysate"
+  #   csv: "/ksi_ml/data/pairs_v2.csv"
+  # - id: "yeast_human"
+  #   csv: "/ksi_ml/data/pairs_yeast.csv"
+  # - id: "phosformer_train"
+  #   csv: "/ksi_ml/data/pairs_phosphomer_train.csv"
+  # - id: "phosformer_test"
+  #   csv: "/ksi_ml/data/pairs_phosphomer_test.csv"
+  # - id: "ksi"
+  #   csv: "/ksi_ml/data/pairs_ksi.csv"
+  - id: "ksi_full"
+    csv: "/ksi_ml/data/pairs_ksi_full.csv"

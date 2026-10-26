@@ -1,0 +1,3 @@
+Replacement for main.tex METHODS (the sentence beginning "The panel comprised ..."):
+
+The panel comprised 8 tyrosine kinases (JAK2 (first kinase domain), FES, ABL2, FRK, FYN, SYK, TNK1, STYK1) and 15 serine/threonine kinases (TTN (Titin pseudokinase), PHKG1, PIM1, CAMKK1 (CaMKK1), PLK1, PLK1-T210D, MAST1, PDPK1/PDK1, PRKG1, RPS6KB1/S6K1, RPS6KB1-T252D, TBK1, IKBKB/IKKbeta, ADCK1, MAP3K7/TAK1); the complete panel with resolved HGNC symbols is listed in Table S12.

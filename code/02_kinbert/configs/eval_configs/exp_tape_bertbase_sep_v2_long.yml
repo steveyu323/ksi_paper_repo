@@ -1,0 +1,39 @@
+training_command: "python ../train/train_pair_interaction_tape.py --config ../../configs/exp_tape_bertbase_sep_v2_long.yml"
+
+output_dir: "./eval_outputs"
+
+batch_size: 512
+num_workers: 8
+
+datasets:
+    # - id: "db_only"
+    #   csv: "../../data/pairs_v1.csv"
+    # - id: "virus"
+    #   csv: "../../data/pairs_virus.csv"
+    # - id: "virus_dms"
+    #   csv: "../../data/pairs_virus_dms.csv"
+    - id: "db_lysate"
+      csv: "../../data/pairs_v2.csv"
+    - id: "yeast_human"
+      csv: "../../data/pairs_yeast.csv"
+    # - id: "phosformer_train"
+    #   csv: "../../data/pairs_phosphomer_train.csv"
+    # - id: "phosformer_test"
+    #   csv: "../../data/pairs_phosphomer_test.csv"
+    - id: "ksi"
+      csv: "../../data/pairs_ksi.csv"
+    - id: "ksi_full"
+      csv: "../../data/pairs_ksi_full.csv"
+    # - id: "linkphinder"
+    #   csv: "../../data/pairs_linkphinder.csv"
+    # # - id: "phosphonetwork"
+    # #   csv: "../../data/pairs_phosphonetwork.csv"
+    # - id: "y2h"
+    #   csv: "../../data/pairs_y2h.csv"
+    # - id: "ptmvar_on_psite"
+    #   csv: "../../data/pairs_ptmvar.csv"
+    # - id: "ptmvar_flank_wt"
+    #   csv: "../../data/pairs_ptmvar_flank_wt.csv"
+    # - id: "ptmvar_flank_mut"
+    #   csv: "../../data/pairs_ptmvar_flank_mut.csv"
+

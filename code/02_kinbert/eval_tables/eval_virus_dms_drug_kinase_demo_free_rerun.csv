@@ -1,0 +1,969 @@
+kinase,drug,hit
+AKT1,Archexin,1
+AKT1,Capivasertib,1
+AKT1,Lorlatinib,0
+AKT1,Ensartinib,0
+AKT1,Alectinib,0
+AKT1,Milciclib,0
+AKT1,Avotaciclib,0
+AKT1,OLOMOUCINE II,0
+AKT1,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+AKT1,Abemaciclib,0
+AKT1,Voruciclib,0
+AKT1,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+AKT1,SNS-032,0
+AKT1,Phosphonothreonine,0
+AKT1,Seliciclib,0
+AKT1,Umbralisib,0
+AKT1,Ulixertinib,0
+AKT1,Sulindac,0
+AKT1,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+AKT1,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+AKT1,Minocycline,0
+AKT1,Acetylsalicylic acid,0
+AKT1,Crenolanib,0
+AKT1,Lestaurtinib,0
+AKT1,Denibulin,0
+AKT1,Telatinib,0
+AKT1,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+AKT1,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+AKT1,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+AKT1,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+AKT1,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+AKT1,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+AKT1,Ripretinib,0
+AKT1,Ramucirumab,0
+AKT1,Enzastaurin,0
+AKT1,Fostamatinib,0
+AKT1,Aprinocarsen,0
+AKT1,Phosphatidyl serine,0
+AKT1,Phosphorylcolamine,0
+AKT1,Vitamin E,0
+AKT1,Cholecystokinin,0
+AKT1,KAI-1455,0
+AKT1,Bryostatin 1,0
+AKT1,Purvalanol,0
+ALK,Archexin,0
+ALK,Capivasertib,0
+ALK,Lorlatinib,1
+ALK,Ensartinib,1
+ALK,Alectinib,1
+ALK,Milciclib,0
+ALK,Avotaciclib,0
+ALK,OLOMOUCINE II,0
+ALK,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+ALK,Abemaciclib,0
+ALK,Voruciclib,0
+ALK,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+ALK,SNS-032,0
+ALK,Phosphonothreonine,0
+ALK,Seliciclib,0
+ALK,Umbralisib,0
+ALK,Ulixertinib,0
+ALK,Sulindac,0
+ALK,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+ALK,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+ALK,Minocycline,0
+ALK,Acetylsalicylic acid,0
+ALK,Crenolanib,0
+ALK,Lestaurtinib,0
+ALK,Denibulin,0
+ALK,Telatinib,0
+ALK,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+ALK,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+ALK,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+ALK,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+ALK,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+ALK,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+ALK,Ripretinib,0
+ALK,Ramucirumab,0
+ALK,Enzastaurin,0
+ALK,Fostamatinib,0
+ALK,Aprinocarsen,0
+ALK,Phosphatidyl serine,0
+ALK,Phosphorylcolamine,0
+ALK,Vitamin E,0
+ALK,Cholecystokinin,0
+ALK,KAI-1455,0
+ALK,Bryostatin 1,0
+ALK,Purvalanol,0
+CDC2,Archexin,0
+CDC2,Capivasertib,0
+CDC2,Lorlatinib,0
+CDC2,Ensartinib,0
+CDC2,Alectinib,0
+CDC2,Milciclib,1
+CDC2,Avotaciclib,1
+CDC2,OLOMOUCINE II,0
+CDC2,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+CDC2,Abemaciclib,0
+CDC2,Voruciclib,0
+CDC2,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+CDC2,SNS-032,0
+CDC2,Phosphonothreonine,0
+CDC2,Seliciclib,0
+CDC2,Umbralisib,0
+CDC2,Ulixertinib,0
+CDC2,Sulindac,0
+CDC2,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+CDC2,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+CDC2,Minocycline,0
+CDC2,Acetylsalicylic acid,0
+CDC2,Crenolanib,0
+CDC2,Lestaurtinib,0
+CDC2,Denibulin,0
+CDC2,Telatinib,0
+CDC2,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+CDC2,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+CDC2,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+CDC2,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+CDC2,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+CDC2,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+CDC2,Ripretinib,0
+CDC2,Ramucirumab,0
+CDC2,Enzastaurin,0
+CDC2,Fostamatinib,0
+CDC2,Aprinocarsen,0
+CDC2,Phosphatidyl serine,0
+CDC2,Phosphorylcolamine,0
+CDC2,Vitamin E,0
+CDC2,Cholecystokinin,0
+CDC2,KAI-1455,0
+CDC2,Bryostatin 1,0
+CDC2,Purvalanol,0
+CDK2,Archexin,0
+CDK2,Capivasertib,0
+CDK2,Lorlatinib,0
+CDK2,Ensartinib,0
+CDK2,Alectinib,0
+CDK2,Milciclib,0
+CDK2,Avotaciclib,0
+CDK2,OLOMOUCINE II,1
+CDK2,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,1
+CDK2,Abemaciclib,0
+CDK2,Voruciclib,0
+CDK2,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+CDK2,SNS-032,0
+CDK2,Phosphonothreonine,0
+CDK2,Seliciclib,0
+CDK2,Umbralisib,0
+CDK2,Ulixertinib,0
+CDK2,Sulindac,0
+CDK2,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+CDK2,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+CDK2,Minocycline,0
+CDK2,Acetylsalicylic acid,0
+CDK2,Crenolanib,0
+CDK2,Lestaurtinib,0
+CDK2,Denibulin,0
+CDK2,Telatinib,0
+CDK2,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+CDK2,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+CDK2,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+CDK2,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+CDK2,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+CDK2,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+CDK2,Ripretinib,0
+CDK2,Ramucirumab,0
+CDK2,Enzastaurin,0
+CDK2,Fostamatinib,0
+CDK2,Aprinocarsen,0
+CDK2,Phosphatidyl serine,0
+CDK2,Phosphorylcolamine,0
+CDK2,Vitamin E,0
+CDK2,Cholecystokinin,0
+CDK2,KAI-1455,0
+CDK2,Bryostatin 1,0
+CDK2,Purvalanol,0
+CDK4,Archexin,0
+CDK4,Capivasertib,0
+CDK4,Lorlatinib,0
+CDK4,Ensartinib,0
+CDK4,Alectinib,0
+CDK4,Milciclib,0
+CDK4,Avotaciclib,0
+CDK4,OLOMOUCINE II,0
+CDK4,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+CDK4,Abemaciclib,1
+CDK4,Voruciclib,1
+CDK4,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+CDK4,SNS-032,0
+CDK4,Phosphonothreonine,0
+CDK4,Seliciclib,0
+CDK4,Umbralisib,0
+CDK4,Ulixertinib,0
+CDK4,Sulindac,0
+CDK4,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+CDK4,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+CDK4,Minocycline,0
+CDK4,Acetylsalicylic acid,0
+CDK4,Crenolanib,0
+CDK4,Lestaurtinib,0
+CDK4,Denibulin,0
+CDK4,Telatinib,0
+CDK4,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+CDK4,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+CDK4,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+CDK4,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+CDK4,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+CDK4,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+CDK4,Ripretinib,0
+CDK4,Ramucirumab,0
+CDK4,Enzastaurin,0
+CDK4,Fostamatinib,0
+CDK4,Aprinocarsen,0
+CDK4,Phosphatidyl serine,0
+CDK4,Phosphorylcolamine,0
+CDK4,Vitamin E,0
+CDK4,Cholecystokinin,0
+CDK4,KAI-1455,0
+CDK4,Bryostatin 1,0
+CDK4,Purvalanol,0
+CDK5,Archexin,0
+CDK5,Capivasertib,0
+CDK5,Lorlatinib,0
+CDK5,Ensartinib,0
+CDK5,Alectinib,0
+CDK5,Milciclib,0
+CDK5,Avotaciclib,0
+CDK5,OLOMOUCINE II,0
+CDK5,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+CDK5,Abemaciclib,0
+CDK5,Voruciclib,0
+CDK5,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",1
+CDK5,SNS-032,0
+CDK5,Phosphonothreonine,0
+CDK5,Seliciclib,0
+CDK5,Umbralisib,0
+CDK5,Ulixertinib,0
+CDK5,Sulindac,0
+CDK5,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+CDK5,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+CDK5,Minocycline,0
+CDK5,Acetylsalicylic acid,0
+CDK5,Crenolanib,0
+CDK5,Lestaurtinib,0
+CDK5,Denibulin,0
+CDK5,Telatinib,0
+CDK5,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+CDK5,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+CDK5,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+CDK5,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+CDK5,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+CDK5,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+CDK5,Ripretinib,0
+CDK5,Ramucirumab,0
+CDK5,Enzastaurin,0
+CDK5,Fostamatinib,0
+CDK5,Aprinocarsen,0
+CDK5,Phosphatidyl serine,0
+CDK5,Phosphorylcolamine,0
+CDK5,Vitamin E,0
+CDK5,Cholecystokinin,0
+CDK5,KAI-1455,0
+CDK5,Bryostatin 1,0
+CDK5,Purvalanol,0
+CDK7,Archexin,0
+CDK7,Capivasertib,0
+CDK7,Lorlatinib,0
+CDK7,Ensartinib,0
+CDK7,Alectinib,0
+CDK7,Milciclib,0
+CDK7,Avotaciclib,0
+CDK7,OLOMOUCINE II,0
+CDK7,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+CDK7,Abemaciclib,0
+CDK7,Voruciclib,0
+CDK7,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+CDK7,SNS-032,1
+CDK7,Phosphonothreonine,1
+CDK7,Seliciclib,0
+CDK7,Umbralisib,0
+CDK7,Ulixertinib,0
+CDK7,Sulindac,0
+CDK7,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+CDK7,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+CDK7,Minocycline,0
+CDK7,Acetylsalicylic acid,0
+CDK7,Crenolanib,0
+CDK7,Lestaurtinib,0
+CDK7,Denibulin,0
+CDK7,Telatinib,0
+CDK7,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+CDK7,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+CDK7,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+CDK7,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+CDK7,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+CDK7,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+CDK7,Ripretinib,0
+CDK7,Ramucirumab,0
+CDK7,Enzastaurin,0
+CDK7,Fostamatinib,0
+CDK7,Aprinocarsen,0
+CDK7,Phosphatidyl serine,0
+CDK7,Phosphorylcolamine,0
+CDK7,Vitamin E,0
+CDK7,Cholecystokinin,0
+CDK7,KAI-1455,0
+CDK7,Bryostatin 1,0
+CDK7,Purvalanol,0
+CK1e,Archexin,0
+CK1e,Capivasertib,0
+CK1e,Lorlatinib,0
+CK1e,Ensartinib,0
+CK1e,Alectinib,0
+CK1e,Milciclib,0
+CK1e,Avotaciclib,0
+CK1e,OLOMOUCINE II,0
+CK1e,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+CK1e,Abemaciclib,0
+CK1e,Voruciclib,0
+CK1e,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+CK1e,SNS-032,0
+CK1e,Phosphonothreonine,0
+CK1e,Seliciclib,1
+CK1e,Umbralisib,1
+CK1e,Ulixertinib,0
+CK1e,Sulindac,0
+CK1e,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+CK1e,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+CK1e,Minocycline,0
+CK1e,Acetylsalicylic acid,0
+CK1e,Crenolanib,0
+CK1e,Lestaurtinib,0
+CK1e,Denibulin,0
+CK1e,Telatinib,0
+CK1e,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+CK1e,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+CK1e,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+CK1e,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+CK1e,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+CK1e,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+CK1e,Ripretinib,0
+CK1e,Ramucirumab,0
+CK1e,Enzastaurin,0
+CK1e,Fostamatinib,0
+CK1e,Aprinocarsen,0
+CK1e,Phosphatidyl serine,0
+CK1e,Phosphorylcolamine,0
+CK1e,Vitamin E,0
+CK1e,Cholecystokinin,0
+CK1e,KAI-1455,0
+CK1e,Bryostatin 1,0
+CK1e,Purvalanol,0
+Erk1,Archexin,0
+Erk1,Capivasertib,0
+Erk1,Lorlatinib,0
+Erk1,Ensartinib,0
+Erk1,Alectinib,0
+Erk1,Milciclib,0
+Erk1,Avotaciclib,0
+Erk1,OLOMOUCINE II,0
+Erk1,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+Erk1,Abemaciclib,0
+Erk1,Voruciclib,0
+Erk1,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+Erk1,SNS-032,0
+Erk1,Phosphonothreonine,0
+Erk1,Seliciclib,0
+Erk1,Umbralisib,0
+Erk1,Ulixertinib,1
+Erk1,Sulindac,1
+Erk1,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+Erk1,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+Erk1,Minocycline,0
+Erk1,Acetylsalicylic acid,0
+Erk1,Crenolanib,0
+Erk1,Lestaurtinib,0
+Erk1,Denibulin,0
+Erk1,Telatinib,0
+Erk1,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+Erk1,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+Erk1,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+Erk1,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+Erk1,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+Erk1,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+Erk1,Ripretinib,0
+Erk1,Ramucirumab,0
+Erk1,Enzastaurin,0
+Erk1,Fostamatinib,0
+Erk1,Aprinocarsen,0
+Erk1,Phosphatidyl serine,0
+Erk1,Phosphorylcolamine,0
+Erk1,Vitamin E,0
+Erk1,Cholecystokinin,0
+Erk1,KAI-1455,0
+Erk1,Bryostatin 1,0
+Erk1,Purvalanol,0
+Erk2,Archexin,0
+Erk2,Capivasertib,0
+Erk2,Lorlatinib,0
+Erk2,Ensartinib,0
+Erk2,Alectinib,0
+Erk2,Milciclib,0
+Erk2,Avotaciclib,0
+Erk2,OLOMOUCINE II,0
+Erk2,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+Erk2,Abemaciclib,0
+Erk2,Voruciclib,0
+Erk2,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+Erk2,SNS-032,0
+Erk2,Phosphonothreonine,0
+Erk2,Seliciclib,0
+Erk2,Umbralisib,0
+Erk2,Ulixertinib,0
+Erk2,Sulindac,0
+Erk2,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",1
+Erk2,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,1
+Erk2,Minocycline,0
+Erk2,Acetylsalicylic acid,0
+Erk2,Crenolanib,0
+Erk2,Lestaurtinib,0
+Erk2,Denibulin,0
+Erk2,Telatinib,0
+Erk2,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+Erk2,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+Erk2,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+Erk2,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+Erk2,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+Erk2,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+Erk2,Ripretinib,0
+Erk2,Ramucirumab,0
+Erk2,Enzastaurin,0
+Erk2,Fostamatinib,0
+Erk2,Aprinocarsen,0
+Erk2,Phosphatidyl serine,0
+Erk2,Phosphorylcolamine,0
+Erk2,Vitamin E,0
+Erk2,Cholecystokinin,0
+Erk2,KAI-1455,0
+Erk2,Bryostatin 1,0
+Erk2,Purvalanol,0
+Erk7,Archexin,0
+Erk7,Capivasertib,0
+Erk7,Lorlatinib,0
+Erk7,Ensartinib,0
+Erk7,Alectinib,0
+Erk7,Milciclib,0
+Erk7,Avotaciclib,0
+Erk7,OLOMOUCINE II,0
+Erk7,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+Erk7,Abemaciclib,0
+Erk7,Voruciclib,0
+Erk7,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+Erk7,SNS-032,0
+Erk7,Phosphonothreonine,0
+Erk7,Seliciclib,0
+Erk7,Umbralisib,0
+Erk7,Ulixertinib,0
+Erk7,Sulindac,0
+Erk7,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+Erk7,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+Erk7,Minocycline,1
+Erk7,Acetylsalicylic acid,1
+Erk7,Crenolanib,0
+Erk7,Lestaurtinib,0
+Erk7,Denibulin,0
+Erk7,Telatinib,0
+Erk7,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+Erk7,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+Erk7,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+Erk7,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+Erk7,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+Erk7,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+Erk7,Ripretinib,0
+Erk7,Ramucirumab,0
+Erk7,Enzastaurin,0
+Erk7,Fostamatinib,0
+Erk7,Aprinocarsen,0
+Erk7,Phosphatidyl serine,0
+Erk7,Phosphorylcolamine,0
+Erk7,Vitamin E,0
+Erk7,Cholecystokinin,0
+Erk7,KAI-1455,0
+Erk7,Bryostatin 1,0
+Erk7,Purvalanol,0
+FLT3,Archexin,0
+FLT3,Capivasertib,0
+FLT3,Lorlatinib,0
+FLT3,Ensartinib,0
+FLT3,Alectinib,0
+FLT3,Milciclib,0
+FLT3,Avotaciclib,0
+FLT3,OLOMOUCINE II,0
+FLT3,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+FLT3,Abemaciclib,0
+FLT3,Voruciclib,0
+FLT3,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+FLT3,SNS-032,0
+FLT3,Phosphonothreonine,0
+FLT3,Seliciclib,0
+FLT3,Umbralisib,0
+FLT3,Ulixertinib,0
+FLT3,Sulindac,0
+FLT3,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+FLT3,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+FLT3,Minocycline,0
+FLT3,Acetylsalicylic acid,0
+FLT3,Crenolanib,1
+FLT3,Lestaurtinib,1
+FLT3,Denibulin,0
+FLT3,Telatinib,0
+FLT3,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+FLT3,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+FLT3,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+FLT3,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+FLT3,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+FLT3,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+FLT3,Ripretinib,0
+FLT3,Ramucirumab,0
+FLT3,Enzastaurin,0
+FLT3,Fostamatinib,0
+FLT3,Aprinocarsen,0
+FLT3,Phosphatidyl serine,0
+FLT3,Phosphorylcolamine,0
+FLT3,Vitamin E,0
+FLT3,Cholecystokinin,0
+FLT3,KAI-1455,0
+FLT3,Bryostatin 1,0
+FLT3,Purvalanol,0
+FLT4,Archexin,0
+FLT4,Capivasertib,0
+FLT4,Lorlatinib,0
+FLT4,Ensartinib,0
+FLT4,Alectinib,0
+FLT4,Milciclib,0
+FLT4,Avotaciclib,0
+FLT4,OLOMOUCINE II,0
+FLT4,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+FLT4,Abemaciclib,0
+FLT4,Voruciclib,0
+FLT4,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+FLT4,SNS-032,0
+FLT4,Phosphonothreonine,0
+FLT4,Seliciclib,0
+FLT4,Umbralisib,0
+FLT4,Ulixertinib,0
+FLT4,Sulindac,0
+FLT4,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+FLT4,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+FLT4,Minocycline,0
+FLT4,Acetylsalicylic acid,0
+FLT4,Crenolanib,0
+FLT4,Lestaurtinib,0
+FLT4,Denibulin,1
+FLT4,Telatinib,1
+FLT4,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+FLT4,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+FLT4,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+FLT4,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+FLT4,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+FLT4,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+FLT4,Ripretinib,0
+FLT4,Ramucirumab,0
+FLT4,Enzastaurin,0
+FLT4,Fostamatinib,0
+FLT4,Aprinocarsen,0
+FLT4,Phosphatidyl serine,0
+FLT4,Phosphorylcolamine,0
+FLT4,Vitamin E,0
+FLT4,Cholecystokinin,0
+FLT4,KAI-1455,0
+FLT4,Bryostatin 1,0
+FLT4,Purvalanol,0
+FMS,Archexin,0
+FMS,Capivasertib,0
+FMS,Lorlatinib,0
+FMS,Ensartinib,0
+FMS,Alectinib,0
+FMS,Milciclib,0
+FMS,Avotaciclib,0
+FMS,OLOMOUCINE II,0
+FMS,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+FMS,Abemaciclib,0
+FMS,Voruciclib,0
+FMS,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+FMS,SNS-032,0
+FMS,Phosphonothreonine,0
+FMS,Seliciclib,0
+FMS,Umbralisib,0
+FMS,Ulixertinib,0
+FMS,Sulindac,0
+FMS,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+FMS,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+FMS,Minocycline,0
+FMS,Acetylsalicylic acid,0
+FMS,Crenolanib,0
+FMS,Lestaurtinib,0
+FMS,Denibulin,0
+FMS,Telatinib,0
+FMS,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,1
+FMS,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,1
+FMS,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+FMS,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+FMS,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+FMS,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+FMS,Ripretinib,0
+FMS,Ramucirumab,0
+FMS,Enzastaurin,0
+FMS,Fostamatinib,0
+FMS,Aprinocarsen,0
+FMS,Phosphatidyl serine,0
+FMS,Phosphorylcolamine,0
+FMS,Vitamin E,0
+FMS,Cholecystokinin,0
+FMS,KAI-1455,0
+FMS,Bryostatin 1,0
+FMS,Purvalanol,0
+GSK3B,Archexin,0
+GSK3B,Capivasertib,0
+GSK3B,Lorlatinib,0
+GSK3B,Ensartinib,0
+GSK3B,Alectinib,0
+GSK3B,Milciclib,0
+GSK3B,Avotaciclib,0
+GSK3B,OLOMOUCINE II,0
+GSK3B,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+GSK3B,Abemaciclib,0
+GSK3B,Voruciclib,0
+GSK3B,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+GSK3B,SNS-032,0
+GSK3B,Phosphonothreonine,0
+GSK3B,Seliciclib,0
+GSK3B,Umbralisib,0
+GSK3B,Ulixertinib,0
+GSK3B,Sulindac,0
+GSK3B,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+GSK3B,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+GSK3B,Minocycline,0
+GSK3B,Acetylsalicylic acid,0
+GSK3B,Crenolanib,0
+GSK3B,Lestaurtinib,0
+GSK3B,Denibulin,0
+GSK3B,Telatinib,0
+GSK3B,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+GSK3B,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+GSK3B,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",1
+GSK3B,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,1
+GSK3B,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+GSK3B,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+GSK3B,Ripretinib,0
+GSK3B,Ramucirumab,0
+GSK3B,Enzastaurin,0
+GSK3B,Fostamatinib,0
+GSK3B,Aprinocarsen,0
+GSK3B,Phosphatidyl serine,0
+GSK3B,Phosphorylcolamine,0
+GSK3B,Vitamin E,0
+GSK3B,Cholecystokinin,0
+GSK3B,KAI-1455,0
+GSK3B,Bryostatin 1,0
+GSK3B,Purvalanol,0
+JAK2,Archexin,0
+JAK2,Capivasertib,0
+JAK2,Lorlatinib,0
+JAK2,Ensartinib,0
+JAK2,Alectinib,0
+JAK2,Milciclib,0
+JAK2,Avotaciclib,0
+JAK2,OLOMOUCINE II,0
+JAK2,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+JAK2,Abemaciclib,0
+JAK2,Voruciclib,0
+JAK2,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+JAK2,SNS-032,0
+JAK2,Phosphonothreonine,0
+JAK2,Seliciclib,0
+JAK2,Umbralisib,0
+JAK2,Ulixertinib,0
+JAK2,Sulindac,0
+JAK2,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+JAK2,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+JAK2,Minocycline,0
+JAK2,Acetylsalicylic acid,0
+JAK2,Crenolanib,0
+JAK2,Lestaurtinib,0
+JAK2,Denibulin,0
+JAK2,Telatinib,0
+JAK2,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+JAK2,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+JAK2,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+JAK2,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+JAK2,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,1
+JAK2,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,1
+JAK2,Ripretinib,0
+JAK2,Ramucirumab,0
+JAK2,Enzastaurin,0
+JAK2,Fostamatinib,0
+JAK2,Aprinocarsen,0
+JAK2,Phosphatidyl serine,0
+JAK2,Phosphorylcolamine,0
+JAK2,Vitamin E,0
+JAK2,Cholecystokinin,0
+JAK2,KAI-1455,0
+JAK2,Bryostatin 1,0
+JAK2,Purvalanol,0
+KDR,Archexin,0
+KDR,Capivasertib,0
+KDR,Lorlatinib,0
+KDR,Ensartinib,0
+KDR,Alectinib,0
+KDR,Milciclib,0
+KDR,Avotaciclib,0
+KDR,OLOMOUCINE II,0
+KDR,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+KDR,Abemaciclib,0
+KDR,Voruciclib,0
+KDR,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+KDR,SNS-032,0
+KDR,Phosphonothreonine,0
+KDR,Seliciclib,0
+KDR,Umbralisib,0
+KDR,Ulixertinib,0
+KDR,Sulindac,0
+KDR,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+KDR,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+KDR,Minocycline,0
+KDR,Acetylsalicylic acid,0
+KDR,Crenolanib,0
+KDR,Lestaurtinib,0
+KDR,Denibulin,0
+KDR,Telatinib,0
+KDR,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+KDR,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+KDR,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+KDR,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+KDR,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+KDR,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+KDR,Ripretinib,1
+KDR,Ramucirumab,1
+KDR,Enzastaurin,0
+KDR,Fostamatinib,0
+KDR,Aprinocarsen,0
+KDR,Phosphatidyl serine,0
+KDR,Phosphorylcolamine,0
+KDR,Vitamin E,0
+KDR,Cholecystokinin,0
+KDR,KAI-1455,0
+KDR,Bryostatin 1,0
+KDR,Purvalanol,0
+PFTAIRE2,Archexin,0
+PFTAIRE2,Capivasertib,0
+PFTAIRE2,Lorlatinib,0
+PFTAIRE2,Ensartinib,0
+PFTAIRE2,Alectinib,0
+PFTAIRE2,Milciclib,0
+PFTAIRE2,Avotaciclib,0
+PFTAIRE2,OLOMOUCINE II,0
+PFTAIRE2,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+PFTAIRE2,Abemaciclib,0
+PFTAIRE2,Voruciclib,0
+PFTAIRE2,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+PFTAIRE2,SNS-032,0
+PFTAIRE2,Phosphonothreonine,0
+PFTAIRE2,Seliciclib,0
+PFTAIRE2,Umbralisib,0
+PFTAIRE2,Ulixertinib,0
+PFTAIRE2,Sulindac,0
+PFTAIRE2,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+PFTAIRE2,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+PFTAIRE2,Minocycline,0
+PFTAIRE2,Acetylsalicylic acid,0
+PFTAIRE2,Crenolanib,0
+PFTAIRE2,Lestaurtinib,0
+PFTAIRE2,Denibulin,0
+PFTAIRE2,Telatinib,0
+PFTAIRE2,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+PFTAIRE2,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+PFTAIRE2,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+PFTAIRE2,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+PFTAIRE2,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+PFTAIRE2,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+PFTAIRE2,Ripretinib,0
+PFTAIRE2,Ramucirumab,0
+PFTAIRE2,Enzastaurin,1
+PFTAIRE2,Fostamatinib,1
+PFTAIRE2,Aprinocarsen,0
+PFTAIRE2,Phosphatidyl serine,0
+PFTAIRE2,Phosphorylcolamine,0
+PFTAIRE2,Vitamin E,0
+PFTAIRE2,Cholecystokinin,0
+PFTAIRE2,KAI-1455,0
+PFTAIRE2,Bryostatin 1,0
+PFTAIRE2,Purvalanol,0
+PKCa,Archexin,0
+PKCa,Capivasertib,0
+PKCa,Lorlatinib,0
+PKCa,Ensartinib,0
+PKCa,Alectinib,0
+PKCa,Milciclib,0
+PKCa,Avotaciclib,0
+PKCa,OLOMOUCINE II,0
+PKCa,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+PKCa,Abemaciclib,0
+PKCa,Voruciclib,0
+PKCa,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+PKCa,SNS-032,0
+PKCa,Phosphonothreonine,0
+PKCa,Seliciclib,0
+PKCa,Umbralisib,0
+PKCa,Ulixertinib,0
+PKCa,Sulindac,0
+PKCa,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+PKCa,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+PKCa,Minocycline,0
+PKCa,Acetylsalicylic acid,0
+PKCa,Crenolanib,0
+PKCa,Lestaurtinib,0
+PKCa,Denibulin,0
+PKCa,Telatinib,0
+PKCa,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+PKCa,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+PKCa,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+PKCa,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+PKCa,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+PKCa,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+PKCa,Ripretinib,0
+PKCa,Ramucirumab,0
+PKCa,Enzastaurin,0
+PKCa,Fostamatinib,0
+PKCa,Aprinocarsen,1
+PKCa,Phosphatidyl serine,1
+PKCa,Phosphorylcolamine,0
+PKCa,Vitamin E,0
+PKCa,Cholecystokinin,0
+PKCa,KAI-1455,0
+PKCa,Bryostatin 1,0
+PKCa,Purvalanol,0
+PKCb,Archexin,0
+PKCb,Capivasertib,0
+PKCb,Lorlatinib,0
+PKCb,Ensartinib,0
+PKCb,Alectinib,0
+PKCb,Milciclib,0
+PKCb,Avotaciclib,0
+PKCb,OLOMOUCINE II,0
+PKCb,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+PKCb,Abemaciclib,0
+PKCb,Voruciclib,0
+PKCb,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+PKCb,SNS-032,0
+PKCb,Phosphonothreonine,0
+PKCb,Seliciclib,0
+PKCb,Umbralisib,0
+PKCb,Ulixertinib,0
+PKCb,Sulindac,0
+PKCb,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+PKCb,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+PKCb,Minocycline,0
+PKCb,Acetylsalicylic acid,0
+PKCb,Crenolanib,0
+PKCb,Lestaurtinib,0
+PKCb,Denibulin,0
+PKCb,Telatinib,0
+PKCb,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+PKCb,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+PKCb,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+PKCb,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+PKCb,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+PKCb,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+PKCb,Ripretinib,0
+PKCb,Ramucirumab,0
+PKCb,Enzastaurin,0
+PKCb,Fostamatinib,0
+PKCb,Aprinocarsen,0
+PKCb,Phosphatidyl serine,0
+PKCb,Phosphorylcolamine,1
+PKCb,Vitamin E,1
+PKCb,Cholecystokinin,1
+PKCb,KAI-1455,0
+PKCb,Bryostatin 1,0
+PKCb,Purvalanol,0
+PKCe,Archexin,0
+PKCe,Capivasertib,0
+PKCe,Lorlatinib,0
+PKCe,Ensartinib,0
+PKCe,Alectinib,0
+PKCe,Milciclib,0
+PKCe,Avotaciclib,0
+PKCe,OLOMOUCINE II,0
+PKCe,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+PKCe,Abemaciclib,0
+PKCe,Voruciclib,0
+PKCe,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+PKCe,SNS-032,0
+PKCe,Phosphonothreonine,0
+PKCe,Seliciclib,0
+PKCe,Umbralisib,0
+PKCe,Ulixertinib,0
+PKCe,Sulindac,0
+PKCe,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+PKCe,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+PKCe,Minocycline,0
+PKCe,Acetylsalicylic acid,0
+PKCe,Crenolanib,0
+PKCe,Lestaurtinib,0
+PKCe,Denibulin,0
+PKCe,Telatinib,0
+PKCe,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+PKCe,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+PKCe,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+PKCe,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+PKCe,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+PKCe,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+PKCe,Ripretinib,0
+PKCe,Ramucirumab,0
+PKCe,Enzastaurin,0
+PKCe,Fostamatinib,0
+PKCe,Aprinocarsen,0
+PKCe,Phosphatidyl serine,0
+PKCe,Phosphorylcolamine,0
+PKCe,Vitamin E,0
+PKCe,Cholecystokinin,0
+PKCe,KAI-1455,1
+PKCe,Bryostatin 1,1
+PKCe,Purvalanol,0
+SRPK2,Archexin,0
+SRPK2,Capivasertib,0
+SRPK2,Lorlatinib,0
+SRPK2,Ensartinib,0
+SRPK2,Alectinib,0
+SRPK2,Milciclib,0
+SRPK2,Avotaciclib,0
+SRPK2,OLOMOUCINE II,0
+SRPK2,O6-CYCLOHEXYLMETHOXY-2-(4'-SULPHAMOYLANILINO) PURINE,0
+SRPK2,Abemaciclib,0
+SRPK2,Voruciclib,0
+SRPK2,"6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE",0
+SRPK2,SNS-032,0
+SRPK2,Phosphonothreonine,0
+SRPK2,Seliciclib,0
+SRPK2,Umbralisib,0
+SRPK2,Ulixertinib,0
+SRPK2,Sulindac,0
+SRPK2,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",0
+SRPK2,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,0
+SRPK2,Minocycline,0
+SRPK2,Acetylsalicylic acid,0
+SRPK2,Crenolanib,0
+SRPK2,Lestaurtinib,0
+SRPK2,Denibulin,0
+SRPK2,Telatinib,0
+SRPK2,6-CHLORO-3-(3-METHYLISOXAZOL-5-YL)-4-PHENYLQUINOLIN-2(1H)-ONE,0
+SRPK2,5-CYANO-FURAN-2-CARBOXYLIC ACID [5-HYDROXYMETHYL-2-(4-METHYL-PIPERIDIN-1-YL)-PHENYL]-AMIDE,0
+SRPK2,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",0
+SRPK2,(2S)-1-(1H-INDOL-3-YL)-3-{[5-(3-METHYL-1H-INDAZOL-5-YL)PYRIDIN-3-YL]OXY}PROPAN-2-AMINE,0
+SRPK2,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,0
+SRPK2,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,0
+SRPK2,Ripretinib,0
+SRPK2,Ramucirumab,0
+SRPK2,Enzastaurin,0
+SRPK2,Fostamatinib,0
+SRPK2,Aprinocarsen,0
+SRPK2,Phosphatidyl serine,0
+SRPK2,Phosphorylcolamine,0
+SRPK2,Vitamin E,0
+SRPK2,Cholecystokinin,0
+SRPK2,KAI-1455,0
+SRPK2,Bryostatin 1,0
+SRPK2,Purvalanol,1

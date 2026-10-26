@@ -1,0 +1,13 @@
+intersection_index,degree,members,intersection_size,Cell Lysate LC-MS,Phospho.ELM,PhosphoSitePlus,Kinasephos3.0
+0,1,Kinasephos3.0,1428,0,0,0,1
+1,1,PhosphoSitePlus,44,0,0,1,0
+2,1,Phospho.ELM,6,0,1,0,0
+3,1,Cell Lysate LC-MS,26,1,0,0,0
+4,2,Kinasephos3.0 & PhosphoSitePlus,365,0,0,1,1
+5,2,Kinasephos3.0 & Phospho.ELM,68,0,1,0,1
+6,2,Cell Lysate LC-MS & Kinasephos3.0,7,1,0,0,1
+7,2,Cell Lysate LC-MS & PhosphoSitePlus,4,1,0,1,0
+8,3,Kinasephos3.0 & Phospho.ELM & PhosphoSitePlus,115,0,1,1,1
+9,3,Cell Lysate LC-MS & Kinasephos3.0 & PhosphoSitePlus,147,1,0,1,1
+10,3,Cell Lysate LC-MS & Kinasephos3.0 & Phospho.ELM,4,1,1,0,1
+11,4,Cell Lysate LC-MS & Kinasephos3.0 & Phospho.ELM & PhosphoSitePlus,143,1,1,1,1

@@ -1,0 +1,19 @@
+ARG DOCKER_TAG=0.12.1-gpu
+FROM vanvalenlab/deepcell-tf:$DOCKER_TAG
+# https://forums.developer.nvidia.com/t/notice-cuda-linux-repository-key-rotation/212771
+RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub
+
+# Install git for postcode installation
+RUN apt-get update && apt-get install -y \
+    git && \
+    rm -rf /var/lib/apt/lists/*
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install sequence-models
+RUN pip install git+https://github.com/microsoft/protein-sequence-models.git
+RUN pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+COPY . .
+
+WORKDIR /
+#ENTRYPOINT [ "/bin/bash" ]
+CMD ["jupyter","notebook","--ip=0.0.0.0","--allow-root"]

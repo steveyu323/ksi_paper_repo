@@ -1,0 +1,23 @@
+# Inference Configuration for Cached Interaction Model
+# This config specifies which checkpoint to load and which pairs to predict
+
+# Path to the trained model checkpoint
+checkpoint_path: "/ksi_ml/runs/exp_esmt12_frozen_v2/checkpoints/best_cached.pt"
+
+# Cache directory root (same as used during training)
+cache_root: "/ksi_ml/data/cache_phosformer"
+
+# Run name (same as used during training)
+run_name: "exp_esmt12_frozen_v2"
+
+# Input CSV file containing pairs to predict
+# Must have columns: kin_idx, sub_idx
+input_csv: "../../data/pairs_phosphomer_train.csv"
+
+# Output CSV file (will be input CSV + logit and prob columns)
+output_csv: "./eval_outputs/exp_esmt12_frozen_v2__pairs_phosphomer_train.csv"
+
+# Optional settings
+batch_size: 128
+num_workers: 4
+

@@ -1,0 +1,48 @@
+claim,manuscript,code,verdict,note
+S13_spikein_ST,465,465,MATCH,
+S13_spikein_Y,151,151,MATCH,
+S13_spikein_total,616,616,MATCH,
+Results_spikein_approx300,~300,616,MISMATCH,"Results/Methods '~300 documented kinase-substrate pairs' is wrong: 616 unique spike-in windows were designed, 449 of them positive pairs. ~300 is not reproducible from any file in the design path."
+S13_spikein_documented_pairs,449,449,MATCH,
+S13_spikein_documented_negatives,165,165,MATCH,
+S13_spikein_both_directions,2,2,MATCH,
+S13_designed_rows_ST,1978,1978,MATCH,
+S13_designed_rows_Y,1950,1950,MATCH,
+S13_designed_rows_total,3928,3928,MATCH,
+S13_distinct_sequences,3918,3918,MATCH,
+S13_sequences_in_both_libraries,10,10,MATCH,
+S13_candidates_total,3312,3312,MATCH,
+S13_candidates_PSP,2753,2753,MATCH,"2,753 reproduces only under build_table_s13.py's class priority (PhosphoSitePlus-pool membership overrides the animal pool). The design notebook's own `set` column gives 2743; the 10-sequence difference is windows present in BOTH pools."
+S13_candidates_animal,559,559,MATCH,design notebook's `set` column gives 569 (same 10 windows)
+S13_ST_lib_all_SerThr_centred,all ST windows S/T,yes,MATCH,
+S13_Y_lib_SerThr_centred_windows,45,45,MATCH,
+S13_Y_lib_SerThr_all_from_PSP,all PhosphoSitePlus,psp_random,MATCH,
+S13_levenshtein_spikein_dedup,7,7,MATCH,"230310_select_substrate_oligo.ipynb cells 6 and 34: DIST_THRESH = 7. sanitize_redundancy() DROPS members with distance < thresh, so the retained set has pairwise Levenshtein >= 7."
+S13_levenshtein_PSP_pool,9,9,MATCH,cells 13 and 41: sanitize_redundancy(thresh=9); cell 21 re-applies thresh=9 to the combined PSP+animal Y pool
+S13_levenshtein_animal_pool,11,11,MATCH,"cell 18: sanitize_redundancy(thresh=11), Y library only"
+Methods_levenshtein_wording,"spike-ins '< 7', candidates '> 8'","spike-ins >= 7, PSP pool >= 9, animal pool >= 11",MISMATCH,"Methods inverts the spike-in threshold ('removal of redundant sequences (Levenshtein distance < 7)' describes what was removed, not what was kept) and collapses two different candidate thresholds (9 for PhosphoSitePlus, 11 for animal) into one '> 8'."
+S13_unmappable_count,1,1,MATCH,
+S13_unmappable_sequence,VGAPIAVSAFYAESC,VGAPIAVSAFYAESC,MATCH,
+S13_multimapping_windows,2069,2069,MATCH,"2,069 is a ROW count over the 3,928 ordered rows (52.7%), matching build_table_s13.py. At the level of the 3,918 DISTINCT windows it is 2063 (52.7%). Either way 53% is right, but the caption should say which denominator it uses."
+S13_multimapping_pct,53%,52.7%,MATCH,52.7% rounds to 53%
+S10_benchmark_total,403,403,MATCH,
+S10_benchmark_positives,329,329,MATCH,
+S10_benchmark_negatives,74,74,MATCH,
+S10_benchmark_pct_positive,81.6%,81.6%,MATCH,
+S10_confusion_combined,134/11/195/63,134/11/195/63,MATCH,
+S10_confusion_ST,57/6/77/41,57/6/77/41,MATCH,
+S10_confusion_Y,77/5/118/22,77/5/118/22,MATCH,
+S10_benchmark_unique_pairs,403 annotated pairs,385,MISMATCH,"403 is a ROW count; the merge duplicates pairs that carry more than one source_all string. There are only 385 distinct (kinase, 15-mer) pairs."
+Benchmark_is_designed_spikeins,'~300 documented pairs ... used as spike-in controls',benchmark = inner join of screen with KINBERT's annotation corpus,MISMATCH,"The designed spike-ins are loaded but unused (cells 14/17). The benchmark is an overlap with KINBERT's training/DB-test corpus, exactly as the author states."
+S13_negatives_are_documented_nonsubstrates,'165 documented non-substrates as negative controls',designed spike-in negatives = KINBERT TRAIN-split true negatives (model-predicted + label 0); Table S10 negatives = randomly sampled 1n1p decoys,MISMATCH,Neither negative set is a documented (experimentally shown) non-substrate. Design: set=='train_tn' selected in 230310_select_substrate_oligo.ipynb cell 3 as rows where both KINBERT v1 and v2 had y_true==0 and v1 predicted 0 in the DB TRAIN split. Benchmark: source=NaN negatives of kinbertv1_DB_Test.
+Q3_screened_pairs_in_KINBERT_corpus,(not stated),764 of 29799 (2.6%),UNRESOLVED,"splits_v2 union (train+val+test+test2); not a manuscript claim, this is the leakage-relevant number the manuscript omits"
+Q4_benchmark_pairs_in_KINBERT_corpus,(not stated),310 of 385 (80.5%),UNRESOLVED,splits_v2 union
+Q4_benchmark_pairs_in_splits_v2_train,(not stated),205,UNRESOLVED,
+Q4_benchmark_pairs_in_splits_v2_val,(not stated),29,UNRESOLVED,
+Q4_benchmark_pairs_in_splits_v2_test,(not stated),38,UNRESOLVED,
+Q4_benchmark_pairs_in_splits_v2_test2,(not stated),38,UNRESOLVED,
+Q4_benchmark_pairs_in_finetuning_TRAIN,(not stated),127 of 385 (33.0%),UNRESOLVED,"splits_phosphopca_finetuning/train.csv - the phospho-PCA fine-tuning training set is screen-derived, so benchmark pairs sit in it directly"
+Q4_benchmark_pairs_in_finetuning_any,(not stated),153,UNRESOLVED,
+Q4_benchmark_pairs_seen_in_any_training_split,(not stated),338 of 385 (87.8%),UNRESOLVED,splits_v2 train/val/test/test2 UNION fine-tuning train
+S13_substrates_recovered,3886,3886,MATCH,"implied by '3,918 distinct' minus '32 not recovered'"
+S13_not_recovered,32,32,MATCH,

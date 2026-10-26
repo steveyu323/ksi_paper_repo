@@ -1,0 +1,507 @@
+substrate,psite,kinase,logit
+ZIKA E,T76,SRPK2,3.3438
+ZIKA E,T76,CK1e,0.0
+ZIKA E,T76,CDK7,0.0
+ZIKA E,T76,PKCa,0.0
+ZIKA E,T76,PKCb,0.0
+ZIKA E,T76,FLT3,0.0
+ZIKA E,T76,PFTAIRE2,0.0
+ZIKA E,T76,JAK2,0.0
+ZIKA E,T76,CDK5,0.0
+ZIKA E,T76,CDK2,0.0
+ZIKA E,T76,GSK3B,0.0
+ZIKA E,T76,AKT1,0.0
+ZIKA E,T76,Erk2,0.0
+ZIKA E,T76,Erk1,0.0
+ZIKA E,T76,CDK4,0.0
+ZIKA E,T76,CDC2,0.0
+ZIKA E,T76,ALK,0.0
+ZIKA E,T76,FMS,0.0
+ZIKA E,T76,KDR,0.0
+ZIKA E,T76,FLT4,0.0
+ZIKA E,T76,Erk7,0.0
+ZIKA E,T76,PKCe,0.0
+ZIKA E,T76,CDK11,0.0
+ZIKA E,Y90,SRPK2,3.5469
+ZIKA E,Y90,CK1e,0.0
+ZIKA E,Y90,CDK7,0.0
+ZIKA E,Y90,PKCa,0.0
+ZIKA E,Y90,PKCb,0.0
+ZIKA E,Y90,FLT3,0.0
+ZIKA E,Y90,PFTAIRE2,0.0
+ZIKA E,Y90,JAK2,0.0
+ZIKA E,Y90,CDK5,0.0
+ZIKA E,Y90,CDK2,0.0
+ZIKA E,Y90,GSK3B,0.0
+ZIKA E,Y90,AKT1,0.0
+ZIKA E,Y90,Erk2,0.0
+ZIKA E,Y90,Erk1,0.0
+ZIKA E,Y90,CDK4,0.0
+ZIKA E,Y90,CDC2,0.0
+ZIKA E,Y90,ALK,0.0
+ZIKA E,Y90,FMS,0.0
+ZIKA E,Y90,KDR,0.0
+ZIKA E,Y90,FLT4,0.0
+ZIKA E,Y90,Erk7,0.0
+ZIKA E,Y90,PKCe,0.0
+ZIKA E,Y90,CDK11,0.0
+ZIKA E,S72,SRPK2,0.0
+ZIKA E,S72,CK1e,3.2656
+ZIKA E,S72,CDK7,0.0
+ZIKA E,S72,PKCa,0.0
+ZIKA E,S72,PKCb,0.0
+ZIKA E,S72,FLT3,0.0
+ZIKA E,S72,PFTAIRE2,0.0
+ZIKA E,S72,JAK2,0.0
+ZIKA E,S72,CDK5,0.0
+ZIKA E,S72,CDK2,0.0
+ZIKA E,S72,GSK3B,0.0
+ZIKA E,S72,AKT1,0.0
+ZIKA E,S72,Erk2,0.0
+ZIKA E,S72,Erk1,0.0
+ZIKA E,S72,CDK4,0.0
+ZIKA E,S72,CDC2,0.0
+ZIKA E,S72,ALK,0.0
+ZIKA E,S72,FMS,0.0
+ZIKA E,S72,KDR,0.0
+ZIKA E,S72,FLT4,0.0
+ZIKA E,S72,Erk7,0.0
+ZIKA E,S72,PKCe,0.0
+ZIKA E,S72,CDK11,0.0
+ SARS2:Nucleocapsid,T141,SRPK2,0.0
+ SARS2:Nucleocapsid,T141,CK1e,0.0
+ SARS2:Nucleocapsid,T141,CDK7,3.9688
+ SARS2:Nucleocapsid,T141,PKCa,0.0
+ SARS2:Nucleocapsid,T141,PKCb,0.0
+ SARS2:Nucleocapsid,T141,FLT3,0.0
+ SARS2:Nucleocapsid,T141,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,T141,JAK2,0.0
+ SARS2:Nucleocapsid,T141,CDK5,0.0
+ SARS2:Nucleocapsid,T141,CDK2,0.0
+ SARS2:Nucleocapsid,T141,GSK3B,0.0
+ SARS2:Nucleocapsid,T141,AKT1,0.0
+ SARS2:Nucleocapsid,T141,Erk2,0.0
+ SARS2:Nucleocapsid,T141,Erk1,0.0
+ SARS2:Nucleocapsid,T141,CDK4,0.0
+ SARS2:Nucleocapsid,T141,CDC2,0.0
+ SARS2:Nucleocapsid,T141,ALK,0.0
+ SARS2:Nucleocapsid,T141,FMS,0.0
+ SARS2:Nucleocapsid,T141,KDR,0.0
+ SARS2:Nucleocapsid,T141,FLT4,0.0
+ SARS2:Nucleocapsid,T141,Erk7,0.0
+ SARS2:Nucleocapsid,T141,PKCe,0.0
+ SARS2:Nucleocapsid,T141,CDK11,0.0
+ SARS2:Nucleocapsid,S232,SRPK2,0.0
+ SARS2:Nucleocapsid,S232,CK1e,0.0
+ SARS2:Nucleocapsid,S232,CDK7,0.0
+ SARS2:Nucleocapsid,S232,PKCa,2.5469
+ SARS2:Nucleocapsid,S232,PKCb,2.4531
+ SARS2:Nucleocapsid,S232,FLT3,0.0
+ SARS2:Nucleocapsid,S232,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S232,JAK2,0.0
+ SARS2:Nucleocapsid,S232,CDK5,0.0
+ SARS2:Nucleocapsid,S232,CDK2,0.0
+ SARS2:Nucleocapsid,S232,GSK3B,0.0
+ SARS2:Nucleocapsid,S232,AKT1,0.0
+ SARS2:Nucleocapsid,S232,Erk2,0.0
+ SARS2:Nucleocapsid,S232,Erk1,0.0
+ SARS2:Nucleocapsid,S232,CDK4,0.0
+ SARS2:Nucleocapsid,S232,CDC2,0.0
+ SARS2:Nucleocapsid,S232,ALK,0.0
+ SARS2:Nucleocapsid,S232,FMS,0.0
+ SARS2:Nucleocapsid,S232,KDR,0.0
+ SARS2:Nucleocapsid,S232,FLT4,0.0
+ SARS2:Nucleocapsid,S232,Erk7,0.0
+ SARS2:Nucleocapsid,S232,PKCe,0.0
+ SARS2:Nucleocapsid,S232,CDK11,0.0
+ SARS2:Nucleocapsid,S26,SRPK2,0.0
+ SARS2:Nucleocapsid,S26,CK1e,5.5625
+ SARS2:Nucleocapsid,S26,CDK7,0.0
+ SARS2:Nucleocapsid,S26,PKCa,0.0
+ SARS2:Nucleocapsid,S26,PKCb,0.0
+ SARS2:Nucleocapsid,S26,FLT3,0.0
+ SARS2:Nucleocapsid,S26,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S26,JAK2,0.0
+ SARS2:Nucleocapsid,S26,CDK5,0.0
+ SARS2:Nucleocapsid,S26,CDK2,0.0
+ SARS2:Nucleocapsid,S26,GSK3B,0.0
+ SARS2:Nucleocapsid,S26,AKT1,0.0
+ SARS2:Nucleocapsid,S26,Erk2,0.0
+ SARS2:Nucleocapsid,S26,Erk1,0.0
+ SARS2:Nucleocapsid,S26,CDK4,0.0
+ SARS2:Nucleocapsid,S26,CDC2,0.0
+ SARS2:Nucleocapsid,S26,ALK,0.0
+ SARS2:Nucleocapsid,S26,FMS,0.0
+ SARS2:Nucleocapsid,S26,KDR,0.0
+ SARS2:Nucleocapsid,S26,FLT4,0.0
+ SARS2:Nucleocapsid,S26,Erk7,0.0
+ SARS2:Nucleocapsid,S26,PKCe,0.0
+ SARS2:Nucleocapsid,S26,CDK11,0.0
+ SARS2:Nucleocapsid,S186,SRPK2,0.0
+ SARS2:Nucleocapsid,S186,CK1e,0.0
+ SARS2:Nucleocapsid,S186,CDK7,0.0
+ SARS2:Nucleocapsid,S186,PKCa,0.0
+ SARS2:Nucleocapsid,S186,PKCb,0.0
+ SARS2:Nucleocapsid,S186,FLT3,3.5938
+ SARS2:Nucleocapsid,S186,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S186,JAK2,0.0
+ SARS2:Nucleocapsid,S186,CDK5,0.0
+ SARS2:Nucleocapsid,S186,CDK2,0.0
+ SARS2:Nucleocapsid,S186,GSK3B,0.0
+ SARS2:Nucleocapsid,S186,AKT1,0.0
+ SARS2:Nucleocapsid,S186,Erk2,0.0
+ SARS2:Nucleocapsid,S186,Erk1,0.0
+ SARS2:Nucleocapsid,S186,CDK4,0.0
+ SARS2:Nucleocapsid,S186,CDC2,0.0
+ SARS2:Nucleocapsid,S186,ALK,0.0
+ SARS2:Nucleocapsid,S186,FMS,0.0
+ SARS2:Nucleocapsid,S186,KDR,0.0
+ SARS2:Nucleocapsid,S186,FLT4,0.0
+ SARS2:Nucleocapsid,S186,Erk7,0.0
+ SARS2:Nucleocapsid,S186,PKCe,0.0
+ SARS2:Nucleocapsid,S186,CDK11,0.0
+ SARS2:Nucleocapsid,T379,SRPK2,4.75
+ SARS2:Nucleocapsid,T379,CK1e,0.0
+ SARS2:Nucleocapsid,T379,CDK7,0.0
+ SARS2:Nucleocapsid,T379,PKCa,0.0
+ SARS2:Nucleocapsid,T379,PKCb,0.0
+ SARS2:Nucleocapsid,T379,FLT3,5.4375
+ SARS2:Nucleocapsid,T379,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,T379,JAK2,0.0
+ SARS2:Nucleocapsid,T379,CDK5,0.0
+ SARS2:Nucleocapsid,T379,CDK2,0.0
+ SARS2:Nucleocapsid,T379,GSK3B,0.0
+ SARS2:Nucleocapsid,T379,AKT1,0.0
+ SARS2:Nucleocapsid,T379,Erk2,0.0
+ SARS2:Nucleocapsid,T379,Erk1,0.0
+ SARS2:Nucleocapsid,T379,CDK4,0.0
+ SARS2:Nucleocapsid,T379,CDC2,0.0
+ SARS2:Nucleocapsid,T379,ALK,0.0
+ SARS2:Nucleocapsid,T379,FMS,0.0
+ SARS2:Nucleocapsid,T379,KDR,0.0
+ SARS2:Nucleocapsid,T379,FLT4,0.0
+ SARS2:Nucleocapsid,T379,Erk7,0.0
+ SARS2:Nucleocapsid,T379,PKCe,0.0
+ SARS2:Nucleocapsid,T379,CDK11,0.0
+ SARS2:Nucleocapsid,S206,SRPK2,6.5625
+ SARS2:Nucleocapsid,S206,CK1e,0.0
+ SARS2:Nucleocapsid,S206,CDK7,0.0
+ SARS2:Nucleocapsid,S206,PKCa,0.0
+ SARS2:Nucleocapsid,S206,PKCb,0.0
+ SARS2:Nucleocapsid,S206,FLT3,0.0
+ SARS2:Nucleocapsid,S206,PFTAIRE2,5.0938
+ SARS2:Nucleocapsid,S206,JAK2,0.0
+ SARS2:Nucleocapsid,S206,CDK5,0.0
+ SARS2:Nucleocapsid,S206,CDK2,0.0
+ SARS2:Nucleocapsid,S206,GSK3B,0.0
+ SARS2:Nucleocapsid,S206,AKT1,0.0
+ SARS2:Nucleocapsid,S206,Erk2,0.0
+ SARS2:Nucleocapsid,S206,Erk1,0.0
+ SARS2:Nucleocapsid,S206,CDK4,0.0
+ SARS2:Nucleocapsid,S206,CDC2,0.0
+ SARS2:Nucleocapsid,S206,ALK,0.0
+ SARS2:Nucleocapsid,S206,FMS,0.0
+ SARS2:Nucleocapsid,S206,KDR,0.0
+ SARS2:Nucleocapsid,S206,FLT4,0.0
+ SARS2:Nucleocapsid,S206,Erk7,0.0
+ SARS2:Nucleocapsid,S206,PKCe,0.0
+ SARS2:Nucleocapsid,S206,CDK11,0.0
+ SARS2:Nucleocapsid,S188,SRPK2,0.0
+ SARS2:Nucleocapsid,S188,CK1e,0.0
+ SARS2:Nucleocapsid,S188,CDK7,0.0
+ SARS2:Nucleocapsid,S188,PKCa,3.3438
+ SARS2:Nucleocapsid,S188,PKCb,3.4688
+ SARS2:Nucleocapsid,S188,FLT3,0.0
+ SARS2:Nucleocapsid,S188,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S188,JAK2,0.0
+ SARS2:Nucleocapsid,S188,CDK5,0.0
+ SARS2:Nucleocapsid,S188,CDK2,0.0
+ SARS2:Nucleocapsid,S188,GSK3B,0.0
+ SARS2:Nucleocapsid,S188,AKT1,0.0
+ SARS2:Nucleocapsid,S188,Erk2,0.0
+ SARS2:Nucleocapsid,S188,Erk1,0.0
+ SARS2:Nucleocapsid,S188,CDK4,0.0
+ SARS2:Nucleocapsid,S188,CDC2,0.0
+ SARS2:Nucleocapsid,S188,ALK,0.0
+ SARS2:Nucleocapsid,S188,FMS,0.0
+ SARS2:Nucleocapsid,S188,KDR,0.0
+ SARS2:Nucleocapsid,S188,FLT4,0.0
+ SARS2:Nucleocapsid,S188,Erk7,0.0
+ SARS2:Nucleocapsid,S188,PKCe,0.0
+ SARS2:Nucleocapsid,S188,CDK11,0.0
+ SARS2:Nucleocapsid,S416,SRPK2,0.0
+ SARS2:Nucleocapsid,S416,CK1e,0.0
+ SARS2:Nucleocapsid,S416,CDK7,0.0
+ SARS2:Nucleocapsid,S416,PKCa,0.0
+ SARS2:Nucleocapsid,S416,PKCb,0.0
+ SARS2:Nucleocapsid,S416,FLT3,0.0
+ SARS2:Nucleocapsid,S416,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S416,JAK2,5.2188
+ SARS2:Nucleocapsid,S416,CDK5,0.0
+ SARS2:Nucleocapsid,S416,CDK2,0.0
+ SARS2:Nucleocapsid,S416,GSK3B,0.0
+ SARS2:Nucleocapsid,S416,AKT1,0.0
+ SARS2:Nucleocapsid,S416,Erk2,0.0
+ SARS2:Nucleocapsid,S416,Erk1,0.0
+ SARS2:Nucleocapsid,S416,CDK4,0.0
+ SARS2:Nucleocapsid,S416,CDC2,0.0
+ SARS2:Nucleocapsid,S416,ALK,0.0
+ SARS2:Nucleocapsid,S416,FMS,0.0
+ SARS2:Nucleocapsid,S416,KDR,0.0
+ SARS2:Nucleocapsid,S416,FLT4,0.0
+ SARS2:Nucleocapsid,S416,Erk7,0.0
+ SARS2:Nucleocapsid,S416,PKCe,0.0
+ SARS2:Nucleocapsid,S416,CDK11,0.0
+ SARS2:Nucleocapsid,T198,SRPK2,0.0
+ SARS2:Nucleocapsid,T198,CK1e,0.0
+ SARS2:Nucleocapsid,T198,CDK7,0.0
+ SARS2:Nucleocapsid,T198,PKCa,0.0
+ SARS2:Nucleocapsid,T198,PKCb,0.0
+ SARS2:Nucleocapsid,T198,FLT3,0.0
+ SARS2:Nucleocapsid,T198,PFTAIRE2,4.625
+ SARS2:Nucleocapsid,T198,JAK2,0.0
+ SARS2:Nucleocapsid,T198,CDK5,4.4688
+ SARS2:Nucleocapsid,T198,CDK2,4.3438
+ SARS2:Nucleocapsid,T198,GSK3B,0.0
+ SARS2:Nucleocapsid,T198,AKT1,0.0
+ SARS2:Nucleocapsid,T198,Erk2,0.0
+ SARS2:Nucleocapsid,T198,Erk1,0.0
+ SARS2:Nucleocapsid,T198,CDK4,0.0
+ SARS2:Nucleocapsid,T198,CDC2,0.0
+ SARS2:Nucleocapsid,T198,ALK,0.0
+ SARS2:Nucleocapsid,T198,FMS,0.0
+ SARS2:Nucleocapsid,T198,KDR,0.0
+ SARS2:Nucleocapsid,T198,FLT4,0.0
+ SARS2:Nucleocapsid,T198,Erk7,0.0
+ SARS2:Nucleocapsid,T198,PKCe,0.0
+ SARS2:Nucleocapsid,T198,CDK11,0.0
+ SARS2:Nucleocapsid,S202,SRPK2,0.0
+ SARS2:Nucleocapsid,S202,CK1e,0.0
+ SARS2:Nucleocapsid,S202,CDK7,0.0
+ SARS2:Nucleocapsid,S202,PKCa,0.0
+ SARS2:Nucleocapsid,S202,PKCb,0.0
+ SARS2:Nucleocapsid,S202,FLT3,0.0
+ SARS2:Nucleocapsid,S202,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S202,JAK2,0.0
+ SARS2:Nucleocapsid,S202,CDK5,0.0
+ SARS2:Nucleocapsid,S202,CDK2,0.0
+ SARS2:Nucleocapsid,S202,GSK3B,2.7031
+ SARS2:Nucleocapsid,S202,AKT1,0.0
+ SARS2:Nucleocapsid,S202,Erk2,0.0
+ SARS2:Nucleocapsid,S202,Erk1,0.0
+ SARS2:Nucleocapsid,S202,CDK4,0.0
+ SARS2:Nucleocapsid,S202,CDC2,0.0
+ SARS2:Nucleocapsid,S202,ALK,0.0
+ SARS2:Nucleocapsid,S202,FMS,0.0
+ SARS2:Nucleocapsid,S202,KDR,0.0
+ SARS2:Nucleocapsid,S202,FLT4,0.0
+ SARS2:Nucleocapsid,S202,Erk7,0.0
+ SARS2:Nucleocapsid,S202,PKCe,0.0
+ SARS2:Nucleocapsid,S202,CDK11,0.0
+ SARS2:Nucleocapsid,S194,SRPK2,0.0
+ SARS2:Nucleocapsid,S194,CK1e,0.0
+ SARS2:Nucleocapsid,S194,CDK7,0.0
+ SARS2:Nucleocapsid,S194,PKCa,0.0
+ SARS2:Nucleocapsid,S194,PKCb,0.0
+ SARS2:Nucleocapsid,S194,FLT3,0.0
+ SARS2:Nucleocapsid,S194,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,S194,JAK2,0.0
+ SARS2:Nucleocapsid,S194,CDK5,0.0
+ SARS2:Nucleocapsid,S194,CDK2,0.0
+ SARS2:Nucleocapsid,S194,GSK3B,0.0
+ SARS2:Nucleocapsid,S194,AKT1,2.7031
+ SARS2:Nucleocapsid,S194,Erk2,0.0
+ SARS2:Nucleocapsid,S194,Erk1,0.0
+ SARS2:Nucleocapsid,S194,CDK4,0.0
+ SARS2:Nucleocapsid,S194,CDC2,0.0
+ SARS2:Nucleocapsid,S194,ALK,0.0
+ SARS2:Nucleocapsid,S194,FMS,0.0
+ SARS2:Nucleocapsid,S194,KDR,0.0
+ SARS2:Nucleocapsid,S194,FLT4,0.0
+ SARS2:Nucleocapsid,S194,Erk7,0.0
+ SARS2:Nucleocapsid,S194,PKCe,0.0
+ SARS2:Nucleocapsid,S194,CDK11,0.0
+ SARS2:Nucleocapsid,T205,SRPK2,0.0
+ SARS2:Nucleocapsid,T205,CK1e,0.0
+ SARS2:Nucleocapsid,T205,CDK7,0.0
+ SARS2:Nucleocapsid,T205,PKCa,0.0
+ SARS2:Nucleocapsid,T205,PKCb,0.0
+ SARS2:Nucleocapsid,T205,FLT3,0.0
+ SARS2:Nucleocapsid,T205,PFTAIRE2,0.0
+ SARS2:Nucleocapsid,T205,JAK2,0.0
+ SARS2:Nucleocapsid,T205,CDK5,3.1562
+ SARS2:Nucleocapsid,T205,CDK2,3.2031
+ SARS2:Nucleocapsid,T205,GSK3B,0.0
+ SARS2:Nucleocapsid,T205,AKT1,0.0
+ SARS2:Nucleocapsid,T205,Erk2,0.0
+ SARS2:Nucleocapsid,T205,Erk1,0.0
+ SARS2:Nucleocapsid,T205,CDK4,0.0
+ SARS2:Nucleocapsid,T205,CDC2,0.0
+ SARS2:Nucleocapsid,T205,ALK,0.0
+ SARS2:Nucleocapsid,T205,FMS,0.0
+ SARS2:Nucleocapsid,T205,KDR,0.0
+ SARS2:Nucleocapsid,T205,FLT4,0.0
+ SARS2:Nucleocapsid,T205,Erk7,0.0
+ SARS2:Nucleocapsid,T205,PKCe,0.0
+ SARS2:Nucleocapsid,T205,CDK11,0.0
+SARS2:ORF9b,T72,SRPK2,0.0
+SARS2:ORF9b,T72,CK1e,0.0
+SARS2:ORF9b,T72,CDK7,0.0
+SARS2:ORF9b,T72,PKCa,0.0
+SARS2:ORF9b,T72,PKCb,0.0
+SARS2:ORF9b,T72,FLT3,0.0
+SARS2:ORF9b,T72,PFTAIRE2,0.0
+SARS2:ORF9b,T72,JAK2,0.0
+SARS2:ORF9b,T72,CDK5,0.0
+SARS2:ORF9b,T72,CDK2,0.0
+SARS2:ORF9b,T72,GSK3B,0.0
+SARS2:ORF9b,T72,AKT1,0.0
+SARS2:ORF9b,T72,Erk2,3.1562
+SARS2:ORF9b,T72,Erk1,2.7969
+SARS2:ORF9b,T72,CDK4,2.4531
+SARS2:ORF9b,T72,CDC2,2.0938
+SARS2:ORF9b,T72,ALK,0.0
+SARS2:ORF9b,T72,FMS,0.0
+SARS2:ORF9b,T72,KDR,0.0
+SARS2:ORF9b,T72,FLT4,0.0
+SARS2:ORF9b,T72,Erk7,0.0
+SARS2:ORF9b,T72,PKCe,0.0
+SARS2:ORF9b,T72,CDK11,0.0
+SARS2:ORF9b,Y42,SRPK2,0.0
+SARS2:ORF9b,Y42,CK1e,0.0
+SARS2:ORF9b,Y42,CDK7,0.0
+SARS2:ORF9b,Y42,PKCa,0.0
+SARS2:ORF9b,Y42,PKCb,0.0
+SARS2:ORF9b,Y42,FLT3,0.0
+SARS2:ORF9b,Y42,PFTAIRE2,0.0
+SARS2:ORF9b,Y42,JAK2,0.0
+SARS2:ORF9b,Y42,CDK5,0.0
+SARS2:ORF9b,Y42,CDK2,0.0
+SARS2:ORF9b,Y42,GSK3B,0.0
+SARS2:ORF9b,Y42,AKT1,0.0
+SARS2:ORF9b,Y42,Erk2,0.0
+SARS2:ORF9b,Y42,Erk1,0.0
+SARS2:ORF9b,Y42,CDK4,0.0
+SARS2:ORF9b,Y42,CDC2,0.0
+SARS2:ORF9b,Y42,ALK,8.0625
+SARS2:ORF9b,Y42,FMS,7.9688
+SARS2:ORF9b,Y42,KDR,7.9375
+SARS2:ORF9b,Y42,FLT4,7.875
+SARS2:ORF9b,Y42,Erk7,0.0
+SARS2:ORF9b,Y42,PKCe,0.0
+SARS2:ORF9b,Y42,CDK11,0.0
+"influenza 
+ M1",S53,SRPK2,0.0
+"influenza 
+ M1",S53,CK1e,0.0
+"influenza 
+ M1",S53,CDK7,0.0
+"influenza 
+ M1",S53,PKCa,0.0
+"influenza 
+ M1",S53,PKCb,0.0
+"influenza 
+ M1",S53,FLT3,0.0
+"influenza 
+ M1",S53,PFTAIRE2,0.0
+"influenza 
+ M1",S53,JAK2,0.0
+"influenza 
+ M1",S53,CDK5,0.0
+"influenza 
+ M1",S53,CDK2,0.0
+"influenza 
+ M1",S53,GSK3B,0.0
+"influenza 
+ M1",S53,AKT1,0.0
+"influenza 
+ M1",S53,Erk2,0.0
+"influenza 
+ M1",S53,Erk1,0.0
+"influenza 
+ M1",S53,CDK4,0.0
+"influenza 
+ M1",S53,CDC2,0.0
+"influenza 
+ M1",S53,ALK,0.0
+"influenza 
+ M1",S53,FMS,0.0
+"influenza 
+ M1",S53,KDR,0.0
+"influenza 
+ M1",S53,FLT4,0.0
+"influenza 
+ M1",S53,Erk7,4.6875
+"influenza 
+ M1",S53,PKCe,0.0
+"influenza 
+ M1",S53,CDK11,0.0
+H3N2,T329,SRPK2,0.0
+H3N2,T329,CK1e,0.0
+H3N2,T329,CDK7,0.0
+H3N2,T329,PKCa,0.0
+H3N2,T329,PKCb,0.0
+H3N2,T329,FLT3,0.0
+H3N2,T329,PFTAIRE2,0.0
+H3N2,T329,JAK2,0.0
+H3N2,T329,CDK5,0.0
+H3N2,T329,CDK2,0.0
+H3N2,T329,GSK3B,0.0
+H3N2,T329,AKT1,0.0
+H3N2,T329,Erk2,0.0
+H3N2,T329,Erk1,0.0
+H3N2,T329,CDK4,0.0
+H3N2,T329,CDC2,0.0
+H3N2,T329,ALK,0.0
+H3N2,T329,FMS,0.0
+H3N2,T329,KDR,0.0
+H3N2,T329,FLT4,0.0
+H3N2,T329,Erk7,0.0
+H3N2,T329,PKCe,5.0625
+H3N2,T329,CDK11,0.0
+"influenza 
+ H1",T297,SRPK2,0.0
+"influenza 
+ H1",T297,CK1e,0.0
+"influenza 
+ H1",T297,CDK7,0.0
+"influenza 
+ H1",T297,PKCa,0.0
+"influenza 
+ H1",T297,PKCb,0.0
+"influenza 
+ H1",T297,FLT3,0.0
+"influenza 
+ H1",T297,PFTAIRE2,0.0
+"influenza 
+ H1",T297,JAK2,0.0
+"influenza 
+ H1",T297,CDK5,0.0
+"influenza 
+ H1",T297,CDK2,0.0
+"influenza 
+ H1",T297,GSK3B,0.0
+"influenza 
+ H1",T297,AKT1,0.0
+"influenza 
+ H1",T297,Erk2,0.0
+"influenza 
+ H1",T297,Erk1,0.0
+"influenza 
+ H1",T297,CDK4,0.0
+"influenza 
+ H1",T297,CDC2,0.0
+"influenza 
+ H1",T297,ALK,0.0
+"influenza 
+ H1",T297,FMS,0.0
+"influenza 
+ H1",T297,KDR,0.0
+"influenza 
+ H1",T297,FLT4,0.0
+"influenza 
+ H1",T297,Erk7,0.0
+"influenza 
+ H1",T297,PKCe,0.0
+"influenza 
+ H1",T297,CDK11,6.75

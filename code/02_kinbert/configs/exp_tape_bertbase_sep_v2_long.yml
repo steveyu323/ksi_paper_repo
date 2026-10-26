@@ -1,0 +1,47 @@
+# TAPE run config (uses '<sep>' token between kinase and substrate, like the older dataset class)
+train_csv: ../../data/splits_v2/train.csv
+val_csv: ../../data/splits_v2/val.csv
+test_csv: ../../data/splits_v2/test.csv
+test2_csv: ../../data/splits_v2/test2.csv
+
+run_name: exp_tape_bertbase_sep_v2_long
+out_dir: ../../runs
+
+# Tokenization
+max_len: 768
+with_sep: true
+
+# Backbone
+tape_model_name: bert-base
+freeze_backbone: false
+dropout: 0.1
+
+# Training
+epochs: 40
+batch_size: 32
+grad_accum: 1
+num_workers: 4
+bf16: True
+
+use_pos_weight: true
+
+optimizer:
+  type: sgd       # sgd | adamw
+  lr: 0.001
+  momentum: 0.9
+  nesterov: true
+weight_decay: 0.0
+
+scheduler:
+  type: plateau
+  monitor: val_loss     # val_loss | val_auprc | val_mcc | val_f1
+  mode: min
+  factor: 0.5
+  patience: 2
+  min_lr: 1.0e-6
+
+threshold_policy: val_max_mcc   # fixed_0.5 | val_max_mcc | val_max_f1
+ks: [50, 100, 200]
+early_stop_metric: loss
+patience: 10
+test_on_val_improve: true

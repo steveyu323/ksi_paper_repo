@@ -1,0 +1,27 @@
+claim,manuscript,code,verdict,note
+05.text_p.treated_all_vs_control,1.7e-07,1.708e-07,MATCH,"one-sided MW, stats cell section 2"
+05.artwork_is_12x_text.treated_all_vs_control,1.7e-07,2.05e-06 (= 12.002 x one-sided),MATCH,"Bonferroni k=6 x two-sided factor 2 = 12; same cell, section 4"
+05.text_p.nonzero_vs_control,4.2e-63,4.239e-63,MATCH,"one-sided MW, stats cell section 2"
+05.artwork_is_12x_text.nonzero_vs_control,4.2e-63,5.086e-62 (= 11.998 x one-sided),MATCH,"Bonferroni k=6 x two-sided factor 2 = 12; same cell, section 4"
+05.text_p.selected_vs_control,2.1e-59,2.088e-59,MATCH,"one-sided MW, stats cell section 2"
+05.artwork_is_12x_text.selected_vs_control,2.1e-59,2.506e-58 (= 12.002 x one-sided),MATCH,"Bonferroni k=6 x two-sided factor 2 = 12; same cell, section 4"
+05.artwork_p.2.5x10^-58,2.5x10^-58,2.506e-58,MATCH,nearest Bonferroni pair = Control vs Treated selected
+05.artwork_p.5.1x10^-62,5.1x10^-62,5.086e-62,MATCH,nearest Bonferroni pair = Control vs Treated non-zero
+05.artwork_p.21x10^-6,21x10^-6,2.05e-06,MATCH,"nearest Bonferroni pair = Control vs Treated all; artwork label '21x10^-6' has a dropped decimal point, read as 2.1e-06"
+05.rank_biserial_r,-0.81,-0.8100,MATCH,"code formula r = 1 - 2U/(n1*n2) with U from mannwhitneyu(treated, control, 'greater'); that inverts the usual sign, so the magnitude is right but a negative r here means treated > control"
+05.median_nonzero_pool,0.023,0.02252,MATCH,IKK-SPK-novel-EXCLUDED pool
+05.median_control,0.0,0.00000,MATCH,
+05.n_control,488,488,MATCH,"sum of criteria==1 rows, df_stats (IKK-SPK-novel included)"
+05.n_treated_all,540,540,MATCH,"sum of criteria==2 rows, df_stats (all cells incl. zero)"
+05.n_selected,138,138,MATCH,"sum of criteria==2 rows, df_selected"
+05.n_nonzero,207,207 (not-all-zero = 263; the extra peak_delta>0 filter in cells 19/20 removes the rest),MATCH,n=207 is printed directly by the KDE cell; the table only gives the not-all-zero count it is derived from
+05.pct_basal_below_cap,~98%,97.75%,MATCH,477/488 basal cells at or below BASAL_PEAK_CAP=0.05
+05.activation_threshold,0.01,0.01,MATCH,
+05.basal_control_cap,0.05,0.05,MATCH,
+05.stats_cell_n_control,488,442,MISMATCH,488 - 46 (IKK-SPK-novel basal) = 442
+05.stats_cell_n_treated_all,540,413,MISMATCH,540 - 127 (IKK-SPK-novel activated) = 413
+05.stats_cell_n_nonzero,207,153,MISMATCH,IKK-SPK-novel-excluded non-zero pool
+05.stats_cell_n_selected,138,111,MISMATCH,138 - 27 (IKK-SPK-novel selected) = 111
+05.p_and_n_describe_same_pool,yes (implied),"no: p from n=442/413/153/111, n from 488/540/207/138",MISMATCH,the quoted p-values and the quoted cell counts come from different pools
+05.manual_curation_explains_gap,possible,no,MISMATCH,"manual CSVs load in cell 2 (Loaded IKK-SPK-novel / polyIC: 6 cells  (./ikk_novel_polyIC_manual.csv)) and are consumed only by overlay cells [31, 33, 34]; they never enter df_all/df_stats, so they cannot shift any peak-dSPARK p-value"
+05.text_says_one_sided,one-sided Mann-Whitney U,one-sided Mann-Whitney U,MATCH,"Results text; the figure caption instead says 'Bonferroni-corrected comparisons', which is the artwork's (different) test"

@@ -1,0 +1,29 @@
+claim,manuscript,recomputed,verdict
+S8 mean_reads_per_barcode[ST (blib5)],11.27,13.4769,MISMATCH
+S8 QC_stages_monotonic[ST (blib5)],decreasing,True,MATCH
+S8 mean_reads_per_barcode[Y (blib1)],5.31,6.2674,MISMATCH
+S8 QC_stages_monotonic[Y (blib1)],decreasing,True,MATCH
+Results rounding[ST (blib5)],11.3,11.3,MATCH
+Results rounding[Y (blib1)],5.3,5.3,MATCH
+S9 designed_pairs[Y] = kinases x designed_substrates,15600,15600,MATCH
+S9 constructed_pairs[Y] <= kinases x constructed_substrates,14873,<= 15512,MATCH
+S9 screened_pairs[Y] <= kinases x screened_substrates,13220,<= 15456,MATCH
+S9 substrate_attrition_monotonic[Y],decreasing,True,MATCH
+S9 pair_attrition_monotonic[Y],decreasing,True,MATCH
+S9 overall_pair_attrition[Y],0.15,0.1526,MATCH
+S9 designed_pairs[ST] = kinases x designed_substrates,29670,29670,MATCH
+S9 constructed_pairs[ST] <= kinases x constructed_substrates,25214,<= 29520,MATCH
+S9 screened_pairs[ST] <= kinases x screened_substrates,22695,<= 29460,MATCH
+S9 substrate_attrition_monotonic[ST],decreasing,True,MATCH
+S9 pair_attrition_monotonic[ST],decreasing,True,MATCH
+S9 overall_pair_attrition[ST],0.23,0.2351,MISMATCH
+Fig1/Fig2A total_KSIs (constructed),40087,40087,MATCH
+Results total_KSIs (screened),35915,35915,MATCH
+constructed != screened (labels must differ),both shown as 'KSIs',40087 vs 35915,MISMATCH
+S9 kinase_total,23,23,MATCH
+Results substrate_pool ~2000 [Y],~2000,1950,MATCH
+Results substrate_pool ~2000 [ST],~2000,1978,MATCH
+S8 implied_barcode_denominator[ST (blib5)],final unique = 121070,"implied = 144,778",MISMATCH
+S8 implied_assignment_rate[ST (blib5)],not stated,83.6% confidently assigned,MATCH
+S8 implied_barcode_denominator[Y (blib1)],final unique = 205272,"implied = 242,282",MISMATCH
+S8 implied_assignment_rate[Y (blib1)],not stated,84.7% confidently assigned,MATCH

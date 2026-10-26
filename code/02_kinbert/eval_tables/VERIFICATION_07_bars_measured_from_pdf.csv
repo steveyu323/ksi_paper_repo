@@ -1,0 +1,71 @@
+figure,quantity,regenerated,figure_value,abs_diff,tolerance,match
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:ESM-FROZEN,0.9240139047819961,0.9238972791400252,0.0001166256419709022,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:ESM-CONCAT,0.9645532697963912,0.9644366566302496,0.00011661316614164363,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:ESM,0.9685204064694554,0.9684038016758864,0.00011660479356900844,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:TAPE,0.9701083747651403,0.9699917752229206,0.0001165995422197641,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / Kolossus,0.7203907736257954,0.7202741681552924,0.00011660547050296177,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / Phosformer,0.6140086644340907,0.6138920668019836,0.00011659763210714047,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:ESM-FROZEN,0.9398078595132906,0.9396912474603144,0.00011661205297619492,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:ESM-CONCAT,0.9681647814161378,0.9680481891120942,0.00011659230404359455,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:ESM,0.9720473455137453,0.9719306843248088,0.00011666118893649546,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:TAPE,0.9735057759391968,0.9733891707597616,0.0001166051794352363,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / Kolossus,0.7787912362220243,0.7786745739637089,0.00011666225831541421,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / Phosformer,0.695169550679039,0.6950529763246965,0.00011657435434242469,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:ESM-FROZEN,0.6858387267173276,0.6857220802376303,0.00011664647969733544,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:ESM-CONCAT,0.6624608707382251,0.6623442529965998,0.00011661774162530225,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:ESM,0.7537500845725754,0.7536334128142449,0.00011667175833052212,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:TAPE,0.7799899605524091,0.7798732836016811,0.00011667695072803408,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / Kolossus,0.6069650821373055,0.6068484849193791,0.0001165972179263397,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / Phosformer,0.6880799524964774,0.6879633175100566,0.00011663498642078274,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:ESM-FROZEN,0.8194554114471555,0.8193387669714206,0.000116644475734895,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:ESM-CONCAT,0.8212956266418111,0.8211789856537451,0.00011664098806596357,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:ESM,0.8704870287731661,0.8703703538383951,0.00011667493477096613,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:TAPE,0.8871393163510201,0.8870226590509298,0.00011665730009025044,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / Kolossus,0.7579242927316332,0.757807684426342,0.00011660830529114374,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / Phosformer,0.8545447305927476,0.8544281440185116,0.00011658657423596619,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:ESM-FROZEN,0.8307426459680629,0.8306260244436501,0.00011662152441282991,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:ESM-CONCAT,0.8712854779327563,0.8711688830404709,0.00011659489228543762,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:ESM,0.8818679760112254,0.8817513657768554,0.00011661023436992934,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:TAPE,0.9186245830729619,0.9185079396255272,0.00011664344743467225,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / Kolossus,0.7508817610258475,0.7507651018879098,0.00011665913793768024,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / Phosformer,0.7386193679392405,0.7385027842967614,0.00011658364247912889,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:ESM-FROZEN,0.8651038004919287,0.8649871962514983,0.00011660424043036244,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:ESM-CONCAT,0.9157479598573381,0.9156313652023034,0.00011659465503477406,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:ESM,0.9344272577095519,0.934310588343769,0.00011666936578291764,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:TAPE,0.94968824762682,0.9495715668770588,0.00011668074976123322,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / Kolossus,0.7619306164489772,0.7618140250291281,0.00011659141984909915,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / Phosformer,0.7820541617481498,0.7819374942372654,0.00011666751088434957,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:ESM-FROZEN,0.8216895982666089,0.8215729517453462,0.00011664652126275321,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:ESM-CONCAT,0.8656806800097326,0.8655640154006017,0.00011666460913095644,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:ESM,0.9142651557206991,0.914148556807688,0.00011659891301107894,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:TAPE,0.9209670858244597,0.9208504196689172,0.00011666615554251081,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / Kolossus,0.728842568098258,0.7287259011962837,0.00011666690197431606,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / Phosformer,0.8166008506425204,0.816484188145156,0.00011666249736441703,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:ESM-FROZEN,0.8513209921109021,0.8512043770415066,0.00011661506939542043,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:ESM-CONCAT,0.9078884885903716,0.9077718336619116,0.0001166549284600249,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:ESM,0.9429804342134624,0.942863835191479,0.00011659902198346561,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:TAPE,0.9470877197258546,0.9469710861142993,0.00011663361155533902,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / Kolossus,0.7369800257436818,0.7368634416280018,0.00011658411568005178,0.002,True
+benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / Phosformer,0.8448884335394032,0.8447718353890259,0.000116598150377345,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / Phosformer,0.6354883123584748,0.6353778978870752,0.00011041447139958915,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / Kolossus,0.6581201046101106,0.6580096075966412,0.00011049701346943497,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / KINBERT:TAPE-No Dark,0.9613495233628948,0.961239043041645,0.00011048032124982843,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / KINBERT:TAPE,0.9960429413698002,0.9959324556310728,0.00011048573872740608,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / Phosformer,0.6810425468380795,0.6809320486622208,0.0001104981758587309,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / Kolossus,0.7305523473940857,0.7304418637355363,0.00011048365854937625,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / KINBERT:TAPE-No Dark,0.9591949722031756,0.9590844592599606,0.00011051294321506866,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / KINBERT:TAPE,0.9964368760689795,0.996326411413076,0.00011046465590347498,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / Phosformer,0.693400693281289,0.693290189373954,0.00011050390733491344,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / Kolossus,0.612283279944684,0.6121727862426158,0.00011049370206817066,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / KINBERT:TAPE-Non Human,0.7498423116912037,0.7497318016541452,0.00011051003705853102,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / KINBERT:TAPE,0.9493707840952273,0.9492603538110777,0.00011043028414969847,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / Phosformer,0.8509276072601399,0.8508170853933678,0.00011052186677218412,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / Kolossus,0.7619709033602262,0.7618604248553388,0.0001104785048874346,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / KINBERT:TAPE-Non Human,0.8739256722138922,0.873815202008962,0.00011047020493015758,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / KINBERT:TAPE,0.9763218280321305,0.9762113286085492,0.00011049942358132281,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / PR_AUC / Phosformer,0.6023346128499528,0.602224197789045,0.00011041506090780917,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / PR_AUC / Kolossus,0.5694146472662533,0.5693041847699966,0.00011046249625679128,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / PR_AUC / KINBERT:TAPE,0.6736841571086009,0.6735736645256669,0.00011049258293394093,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / ROC_AUC / Phosformer,0.6955044976118642,0.6953940148274671,0.00011048278439707016,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / ROC_AUC / Kolossus,0.6361789667527671,0.6360685376093116,0.0001104291434554927,0.002,True
+benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / ROC_AUC / KINBERT:TAPE,0.7130014072792247,0.7128909759811854,0.00011043129803922636,0.002,True

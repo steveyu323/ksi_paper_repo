@@ -1,0 +1,10 @@
+training_command: "python ../train/train_pair_interaction_tape.py --config ../../configs/exp_tape_bertbase_sep_dark.yml"
+
+output_dir: "eval_outputs"
+
+batch_size: 64
+num_workers: 4
+
+datasets:
+  - id: "db_lysate"
+    csv: "/ksi_ml/data/pairs_v2.csv"

@@ -1,0 +1,36 @@
+claim,manuscript,recomputed,verdict,note
+FN_nominal = FN_evaluable + no-PAABD + QC-removed,195,50+120+25=195,MATCH,
+[SF5c / Table S10 (nominal FN)] Total,403,403,MATCH,
+[SF5c / Table S10 (nominal FN)] Accuracy,0.489,0.489,MATCH,
+[SF5c / Table S10 (nominal FN)] Recall,0.407,0.407,MATCH,
+[SF5c / Table S10 (nominal FN)] Precision,0.924,0.924,MATCH,
+[main Fig 2 panel D (evaluable FN)] Total,258,258,MATCH,
+[main Fig 2 panel D (evaluable FN)] Accuracy,0.764,0.764,MATCH,
+[main Fig 2 panel D (evaluable FN)] Recall,0.728,0.728,MATCH,
+[main Fig 2 panel D (evaluable FN)] Precision,0.924,0.924,MATCH,
+403 vs 258 are the same matrix under two denominators,"both printed, neither labelled",403 nominal / 258 evaluable,MISMATCH,"Precision is denominator-invariant (0.924 both ways), which is why only Accuracy (0.489 vs 0.764) and Recall (0.407 vs 0.728) diverge. Neither figure says which denominator it uses."
+sf6 input `positive` column max lfsr_best_hit,<= 0.05,0.05,MATCH,sf6_false_positive.py keys on df['positive'] from 251203_ksi_reduced_df.pkl
+sf5 input `true_positive` column max lfsr_best_hit,<= 0.05,0.05,MATCH,sf5_library.py keys on df['true_positive'] from 251203_ksi_reduced_df_tp.pkl
+`positive` pairs at LFSR<=0.05,"8,890 (changelog)",8890,MATCH,
+`true_positive` pairs (positive minus FP substrates),not stated,8100,UNRESOLVED,"A FOURTH hit quantity: 12,936 rows (sub x kin x PAABD) / 8,890 positive pairs / 8,100 true_positive pairs / 34,767 pairs total. The manuscript uses 'KSIs' for several of these."
+sf7_decoupling.py applies an LFSR filter,n/a,no filter,MATCH,"Correct: S7 plots binding-strength DISTRIBUTIONS and median abundances, not hit calls, so no threshold belongs there."
+SF6d volcano markers,46 of 2754 substrates (caption),45 of 2753 ROWS,MISMATCH,Caption's 46/2754 counts the legend swatch (README already caught this).
+SF6d rows vs unique substrates,'substrates',2753 rows = 2602 unique Gene (one marker per sgrna/barcode),MISMATCH,"The volcano is one marker per BARCODE, not per substrate."
+SF6d correct count above promiscuity 0.1,45 of 2753 substrates (README's fix),33 of 2602 substrates  (45 of 2753 barcodes),MISMATCH,The README's own correction keeps the wrong noun. Both 46/2754 and 45/2753 are barcode counts; per substrate it is 33 of 2602.
+SF6c floor,never falls below 27% (caption),26.94%,MATCH,26.94% rounds to 27%.
+SF6c value at the chosen LFC=1.5 cut-off,75.00% (S6 caption provenance line) / '76 %' (artwork) / '~75%' (Methods),75.76%,MISMATCH,Artwork's 76% and Methods' ~75% are both fine; the caption's claim that the reference line is 'recovered at 75.00%' is wrong -- it is 75.76%.
+SF6c denominator at LFC=1.5,"'fraction of control substrates' (caption implies all 2,753)",33 flagged substrates,MISMATCH,"Panel c's denominator is the substrates FLAGGED at each threshold, which varies along the x-axis -- not the full control library."
+panels c and d reconcile once both are per-substrate,16x conflict alleged (notes B5 / refine.ink #31),c: 25 of 33 flagged >0.5 (75.8%);  d: 33 substrates >0.1,MATCH,"FALSE ALARM. 33 substrates have non-zero promiscuity; 25 of those exceed 0.5. Panel c reports 25/33 = 75.8%, panel d reports the 33. The two panels never disagreed -- only the caption's wording does."
+SF5c Combined TP,134,134,MATCH,
+SF5c Combined FP,11,11,MATCH,
+SF5c Combined FN,195,195,MATCH,
+SF5c Combined TN,63,63,MATCH,
+SF5c Combined Total,403,403,MATCH,
+SF5b pair attrition [Y library],15% (caption),15.3%,MATCH,
+SF5b pair attrition [ST library],23% (caption),23.5%,MATCH,
+SF7c median-abundance values,45 (caption),45,MATCH,
+SF7c IKKB_HUMAN FHA,-0.86,-0.8546,MISMATCH,|deviation| = 0.0054. Rounds to -0.85 because the value straddles the 2-dp boundary; the caption's 'largest deviation 0.005' is only marginally exceeded.
+SF7c PDPK1_HUMAN WW,-0.39,-0.3849,MISMATCH,|deviation| = 0.0051. Rounds to -0.38 because the value straddles the 2-dp boundary; the caption's 'largest deviation 0.005' is only marginally exceeded.
+SF7c depleted across all three PAABDs,"ADCK1, MAST1, TITIN",all negative,MATCH,
+SF7c enriched across all three PAABDs,"KKCC1, KS6B1, TBK1",all positive,MATCH,
+SF7c WW gives smaller effects both directions,yes (caption),"mean|median| {'FHA': 0.744, '14-3-3': 0.843, 'WW': 0.313}",MATCH,

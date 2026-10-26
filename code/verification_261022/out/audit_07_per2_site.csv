@@ -1,0 +1,27 @@
+claim,manuscript,code,verdict,note
+Results PER2 site,Ser662,S662,MATCH,every PTMVar table carries p_ind=662; rs121908635 / Pathogenic / Advanced sleep phase syndrome 1
+Fig 7B typesets 'p562',p562 present,p662 expected from p_ind=662,MISMATCH,read directly from the PDF text spans
+Fig 7B Circadian node label,p562,p662 (expected from p_ind=662),MISMATCH,"PER2 is the only substrate in the Circadian cluster (generate_all_figures_final.py: pathways['Circadian'] = ['PER2']); the label is drawn as f'p{p_ind}', so p562 cannot come from the data"
+PER2 562 = isoform-specific numbering?,p562 (Fig 7B),no 562 anywhere in evaluation/*.py or *.ipynb; no PER2 isoform table in the pipeline,MISMATCH,"pure transcription error (6 -> 5 in the hundreds digit), not an isoform renumbering; FASPS PER2 S662G (Toh 2001) is the canonical UniProt O15055 numbering the tables use"
+PTPS Thr58,AMPKa1 @ PTS T58,PTS T58: Tier1=['AMPKa1'] all=['AMPKa1'] tiers=['Tier 1'],MATCH,
+TP53 Ser215,AurA/AurB @ TP53 S215,"TP53 S215: Tier1=['AurA', 'AurB'] all=['AurA', 'AurB', 'PKACb', 'PKCd'] tiers=['Tier 1', 'Tier 2', 'Tier 3']",MATCH,
+TP53 Ser269,AurA/AurB @ TP53 S269,TP53 S269: Tier1=['AurB'] all=['AurB'] tiers=['Tier 1'],MATCH,
+CTNNB1 Ser45,CK1 @ CTNNB1 S45,"CTNNB1 S45: Tier1=['CK1a', 'CK1a2', 'CK1d', 'CK1e', 'CK1g1', 'CK1g2', 'CK1g3'] all=['CK1a', 'CK1a2', 'CK1d', 'CK1e', 'CK1g1', 'CK1g2', 'CK1g3', 'IKKa'] tiers=['Tier 1', 'Tier 2']",MATCH,
+CTNNB1 Ser33,GSK3A/GSK3B @ CTNNB1 S33,"CTNNB1 S33: Tier1=['GSK3A', 'GSK3B'] all=['Erk1', 'GSK3A', 'GSK3B', 'JNK1', 'JNK2', 'NLK', 'p38a'] tiers=['Tier 1', 'Tier 2', 'Tier 3']",MATCH,
+CTNNB1 Ser37,GSK3A/GSK3B @ CTNNB1 S37,"CTNNB1 S37: Tier1=['JNK1', 'JNK2'] all=['Erk1', 'JNK1', 'JNK2', 'NLK', 'p38a'] tiers=['Tier 1', 'Tier 2']",MISMATCH,"none of ['GSK3A', 'GSK3B'] is assigned to CTNNB1 S37; the Tier-1 kinases there are ['JNK1', 'JNK2']"
+CTNNB1 Thr41,GSK3A/GSK3B @ CTNNB1 T41,"CTNNB1 T41: Tier1=- all=['CK1d', 'CK1e', 'CK1g1', 'CK1g2', 'CK1g3', 'p38a'] tiers=['Tier 2', 'Tier 3']",MISMATCH,"none of ['GSK3A', 'GSK3B'] is assigned to CTNNB1 T41; the Tier-1 kinases there are none"
+PER2 Ser662,CK1 @ PER2 S662,"PER2 S662: Tier1=['CK1d', 'CK1e'] all=['CK1d', 'CK1e'] tiers=['Tier 1']",MATCH,
+CCNF Ser621,CK2 @ CCNF S621,CCNF S621: Tier1=['CK2a1'] all=['CK2a1'] tiers=['Tier 1'],MATCH,
+SLC12A3 Thr60,OSR1/SPAK @ SLC12A3 T60,"SLC12A3 T60: Tier1=['OSR1'] all=['OSR1', 'STLK3'] tiers=['Tier 1', 'Tier 2']",MATCH,
+KIT Ser821,PKC @ KIT S821,KIT S821: Tier1=['PKCb'] all=['PKCb'] tiers=['Tier 1'],MATCH,
+CBL Tyr371,"(tier 2, kinase unresolved) @ CBL Y371","CBL Y371: Tier1=- all=['INSR', 'TYRO3'] tiers=['Tier 2']",MATCH,Results places this in the second tier
+Fig 7 caption on-phosphosite mutations,40,40,MATCH,"rows of 260130_ptmvar_nr_finalized.csv with mut_type=onsite (kinase-substrate-site rows, not distinct variants: only 20 distinct dbSNP IDs)"
+Fig 7 caption flanking mutations,25,25,MATCH,rows with mut_type=flanked (17 distinct dbSNP IDs)
+Fig 7B count onsite/Tier 1,11,11,MATCH,
+Fig 7B count onsite/Tier 2,29,29,MATCH,
+Fig 7B count flanked/Tier 1,12,12,MATCH,
+Fig 7B count flanked/Tier 2,13,13,MATCH,
+Fig 7B label p11 (Metabolism),p11,no p_ind=11 in the finalized table; one-typo candidates: p41 = CTNNB1 T41; p111 = VHL S111; p151 = TBK1 S151,MISMATCH,artwork label with no backing row -- same class of error as p562
+Fig 7B label p109 (p53 pathway),p109,no p_ind=109 in the finalized table; one-typo candidates: p106 = TP53 S106,MISMATCH,artwork label with no backing row -- same class of error as p562
+Fig 7B label p152 (NF-kB/Immune),p152,no p_ind=152 in the finalized table; one-typo candidates: p151 = TBK1 S151; p155 = PTEN Y155/TP53 T155,MISMATCH,artwork label with no backing row -- same class of error as p562
+Fig 7B label p562 (Circadian),p562,no p_ind=562 in the finalized table; one-typo candidates: p662 = PER2 S662,MISMATCH,artwork label with no backing row -- same class of error as p562

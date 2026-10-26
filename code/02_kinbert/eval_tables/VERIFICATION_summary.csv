@@ -1,0 +1,393 @@
+script,figure,quantity,regenerated,figure_value,abs_diff,tolerance,match
+table_00_datasource_upset.py,ks_pair_upset.pdf,Phospho.ELM: intersections sum to its set size,2299.0,2299.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset.pdf,PhosphoSitePlus: intersections sum to its set size,22073.0,22073.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset.pdf,Kinasephos3.0: intersections sum to its set size,32154.0,32154.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset.pdf,Cell Lysate LC-MS: intersections sum to its set size,132284.0,132284.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset.pdf,every intersection has a count,14.0,14.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset.pdf,every intersection has at least one member,14.0,14.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_nkinase.pdf,Cell Lysate LC-MS: intersections sum to its set size,331.0,331.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_nkinase.pdf,Phospho.ELM: intersections sum to its set size,336.0,336.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_nkinase.pdf,PhosphoSitePlus: intersections sum to its set size,818.0,818.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_nkinase.pdf,Kinasephos3.0: intersections sum to its set size,2277.0,2277.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_nkinase.pdf,every intersection has a count,12.0,12.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_nkinase.pdf,every intersection has at least one member,12.0,12.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_norganism.pdf,Cell Lysate LC-MS: intersections sum to its set size,1.0,1.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_norganism.pdf,PhosphoSitePlus: intersections sum to its set size,10.0,10.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_norganism.pdf,Phospho.ELM: intersections sum to its set size,11.0,11.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_norganism.pdf,Kinasephos3.0: intersections sum to its set size,92.0,92.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_norganism.pdf,every intersection has a count,5.0,5.0,0.0,0.0,True
+table_00_datasource_upset.py,ks_pair_upset_norganism.pdf,every intersection has at least one member,5.0,5.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 1 by validation PR-AUC,0.0,0.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 2 by validation PR-AUC,1.0,1.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 3 by validation PR-AUC,2.0,2.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 4 by validation PR-AUC,3.0,3.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 5 by validation PR-AUC,4.0,4.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 6 by validation PR-AUC,5.0,5.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,rank 7 by validation PR-AUC,6.0,6.0,0.0,0.0,True
+table_01_v1_models.py,eval_v1_test_bar.png,DB-ESM2-T12-Unfrozen-XAttn training log present,,1.0,,0.0,False
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,Phosformer / ROC_AUC,0.6950529763246965,0.695,5.297632469658531e-05,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,Phosformer / PR_AUC,0.6138920668019836,0.614,0.0001079331980163,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,Kolossus / ROC_AUC,0.7786745739637089,0.779,0.0003254260362911,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,Kolossus / PR_AUC,0.7202741681552924,0.72,0.0002741681552924,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:TAPE / ROC_AUC,0.9733891707597616,0.973,0.0003891707597616,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:TAPE / PR_AUC,0.9699917752229206,0.97,8.224777079401946e-06,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:ESM / ROC_AUC,0.9719306843248088,0.972,6.931567519119497e-05,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:ESM / PR_AUC,0.9684038016758864,0.968,0.0004038016758863,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:ESM-CONCAT / ROC_AUC,0.9680481891120942,0.968,4.818911209425458e-05,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:ESM-CONCAT / PR_AUC,0.9644366566302496,0.964,0.0004366566302496,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:ESM-FROZEN / ROC_AUC,0.9396912474603144,0.94,0.0003087525396855,0.0005,True
+table_02_model_structure.py,evalv2_test_bar.png / evalv2_test_roc.png,KINBERT:ESM-FROZEN / PR_AUC,0.9238972791400252,0.924,0.0001027208599748,0.0005,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / Accuracy,0.7799246567019079,0.779925,3.432980920647921e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / Precision,0.7035657264502395,0.703566,2.735497605099724e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / Recall,0.5131987577639752,0.513199,2.4223602479445105e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / F1_Score,0.5934904601571268,0.59349,4.6015712684699405e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / ROC_AUC,0.8544281440185116,0.854428,1.4401851167189508e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / PR_AUC,0.6879633175100566,0.687963,3.1751005657998377e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / MCC,0.4581014316841724,0.458101,4.316841724083531e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / Specificity,0.9014682469485228,0.901468,2.469485227418744e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Phosformer / True_Positive,1322.0,1322.0,0.0,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / Accuracy,0.7071333090290436,0.707133,3.090290435769916e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / Precision,0.5260514752040176,0.526051,4.7520401758038854e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / Recall,0.6506211180124224,0.650621,1.18012422389846e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / F1_Score,0.5817424505380077,0.581742,4.505380076791354e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / ROC_AUC,0.757807684426342,0.757808,3.1557365798295933e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / PR_AUC,0.6068484849193791,0.606848,4.849193790956718e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / MCC,0.36510482149648,0.365105,1.7850352002080075e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / Specificity,0.7328851937024589,0.732885,1.9370245885053095e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,Kolossus / True_Positive,1676.0,1676.0,0.0,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / Accuracy,0.8408069024182768,0.840807,9.758172314633384e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / Precision,0.7291817523533671,0.729182,2.4764663286713784e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / Recall,0.781832298136646,0.781832,2.981366460375057e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / F1_Score,0.7545897339827651,0.75459,2.660172349067125e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / ROC_AUC,0.8870226590509298,0.887023,3.409490701988816e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / PR_AUC,0.7798732836016811,0.779873,2.83601681028145e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / MCC,0.6378433224564826,0.637843,3.224564825154985e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / Specificity,0.8676808774102247,0.867681,1.2258977533097237e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:TAPE / True_Positive,2014.0,2014.0,0.0,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / Accuracy,0.8340017013002795,0.834002,2.986997205134401e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / Precision,0.7439516129032258,0.743952,3.870967741903542e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / Recall,0.7162267080745341,0.716227,2.91925465800702e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / F1_Score,0.7298259493670886,0.729826,5.0632911419157274e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / ROC_AUC,0.8703703538383951,0.87037,3.5383839513958293e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / PR_AUC,0.7536334128142449,0.753633,4.128142448989181e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / MCC,0.6103139251646345,0.610314,7.483536557106873e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / Specificity,0.8876702635768619,0.88767,2.635768618919343e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM / True_Positive,1845.0,1845.0,0.0,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / Accuracy,0.7818689998784786,0.781869,1.2152145956179083e-10,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / Precision,0.6522417153996102,0.652242,2.846003898104854e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / Recall,0.6494565217391305,0.649457,4.782608694631207e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / F1_Score,0.6508461388834857,0.650846,1.3888348571189368e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / ROC_AUC,0.8211789856537451,0.821179,1.4346254850750029e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / PR_AUC,0.6623442529965998,0.662344,2.529965997810635e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / MCC,0.4922386386128983,0.492239,3.6138710168831523e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / Specificity,0.8422076773394658,0.842208,3.2266053417995266e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-CONCAT / True_Positive,1673.0,1673.0,0.0,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / Accuracy,0.7698383764734475,0.769838,3.764734475275589e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / Precision,0.6309523809523809,0.630952,3.80952380973909e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / Recall,0.6378105590062112,0.637811,4.4099378881945483e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / F1_Score,0.6343629343629343,0.634363,6.563706567153106e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / ROC_AUC,0.8193387669714206,0.819339,2.3302857943274802e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / PR_AUC,0.6857220802376303,0.685722,8.023763020670317e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / MCC,0.4664470288355526,0.466447,2.8835552612349602e-08,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / Specificity,0.8300017689722271,0.830002,2.310277729122845e-07,5e-06,True
+table_02_model_structure.py,evalv2_test2_bar.png / evalv2_test2_roc.png,KINBERT:ESM-FROZEN / True_Positive,1643.0,1643.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / Accuracy,0.7210985524489392,0.721099,4.4755106087812646e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / Precision,0.802199922809726,0.8022,7.719027406150047e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / Recall,0.5654628307148201,0.565463,1.6928517998504589e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / F1_Score,0.6633422427893246,0.663342,2.4278932464483205e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / ROC_AUC,0.8447718353890259,0.844772,1.646109740738311e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / PR_AUC,0.816484188145156,0.816484,1.881451560103997e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / MCC,0.4567462816398073,0.456746,2.8163980730910865e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / Specificity,0.8682095789135327,0.86821,4.210864673614978e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Phosformer / True_Positive,8314.0,8314.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / Accuracy,0.6761517615176151,0.676152,2.3848238484003303e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / Precision,0.663249001331558,0.663249,1.3315579749928472e-09,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / Recall,0.6775487995647147,0.677549,2.0043528525803825e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / F1_Score,0.6703226457625407,0.670323,3.542374592546693e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / ROC_AUC,0.7368634416280018,0.736863,4.416280017238705e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / PR_AUC,0.7287259011962837,0.728726,9.88037163196509e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / MCC,0.3522494634588968,0.352249,4.634588968155384e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / Specificity,0.674831243972999,0.674831,2.439729990255657e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,Kolossus / True_Positive,9962.0,9962.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / Accuracy,0.9036287923854848,0.903629,2.076145152463127e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / Precision,0.8835665473478685,0.883567,4.526521314440757e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / Recall,0.9233489763993744,0.923349,2.3600625564945688e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / F1_Score,0.9030198217373951,0.90302,1.7826260489961498e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / ROC_AUC,0.9469710861142993,0.946971,8.611429924698656e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / PR_AUC,0.9208504196689172,0.92085,4.196689172841772e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / MCC,0.8081155386215164,0.808116,4.61378483529451e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / Specificity,0.8849887495982,0.884989,2.504018000726305e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:TAPE / True_Positive,13576.0,13576.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / Accuracy,0.903232203053738,0.903232,2.0305373793494402e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / Precision,0.8952668680765358,0.895267,1.3192346426382784e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / Recall,0.9069577637216896,0.906958,2.3627831047257078e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / F1_Score,0.9010743969187108,0.901074,3.9691871078773033e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / ROC_AUC,0.942863835191479,0.942864,1.6480852105260626e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / PR_AUC,0.914148556807688,0.914149,4.431923119607717e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / MCC,0.8064450827571416,0.806445,8.275714158401115e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / Specificity,0.8997107039537127,0.899711,2.9604628737356364e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM / True_Positive,13335.0,13335.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / Accuracy,0.8369026373190561,0.836903,3.626809438328493e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / Precision,0.8568088836937463,0.856809,1.1630625373904024e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / Recall,0.7976603414269197,0.79766,3.414269196255759e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / F1_Score,0.8261773097108238,0.826177,3.097108237648527e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / ROC_AUC,0.9077718336619116,0.907772,1.66338088414264e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / PR_AUC,0.8655640154006017,0.865564,1.540060168281343e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / MCC,0.674455856209987,0.674456,1.4379001300746097e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / Specificity,0.8739954998392799,0.873995,4.998392799659968e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-CONCAT / True_Positive,11728.0,11728.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / Accuracy,0.7449269614647366,0.744927,3.8535263424677175e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / Precision,0.8207954441076514,0.820795,4.4410765132063545e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / Recall,0.6077671223559817,0.607767,1.2235598179088925e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / F1_Score,0.6983978116451739,0.698398,1.883548260694923e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / ROC_AUC,0.8512043770415066,0.851204,3.770415066828292e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / PR_AUC,0.8215729517453462,0.821573,4.825465382829464e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / MCC,0.5022988995468546,0.502299,1.0045314546847096e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / Specificity,0.8745740919318548,0.874574,9.193185479539069e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_train_bar.png / eval_phosformer_train_roc.png,KINBERT:ESM-FROZEN / True_Positive,8936.0,8936.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / Accuracy,0.6524125314429453,0.652413,4.685570547113827e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / Precision,0.7361912613355317,0.736191,2.613355316594124e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / Recall,0.4266602962255136,0.42666,2.962255136185199e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / F1_Score,0.5402298850574713,0.54023,1.1494252871724343e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / ROC_AUC,0.7819374942372654,0.781937,4.942372654470617e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / PR_AUC,0.7385027842967614,0.738503,2.157032386040925e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / MCC,0.3194579729708807,0.319458,2.702911933161189e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / Specificity,0.8596491228070176,0.859649,1.2280701755518209e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Phosformer / True_Positive,893.0,893.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / Accuracy,0.7040932997941917,0.704093,2.9979419169379184e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / Precision,0.6787472035794183,0.678747,2.0357941832305213e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / Recall,0.7247969421882465,0.724797,5.7811753495506935e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / F1_Score,0.7010166358595195,0.701017,3.641404805465598e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / ROC_AUC,0.7618140250291281,0.761814,2.50291281034265e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / PR_AUC,0.7507651018879098,0.750765,1.0188790977583297e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / MCC,0.4096105087629115,0.409611,4.912370885068462e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / Specificity,0.6850877192982456,0.685088,2.8070175439598444e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,Kolossus / True_Positive,1517.0,1517.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / Accuracy,0.9069288817745256,0.906929,1.1822547441031617e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / Precision,0.8793879387938794,0.879388,6.120612050519726e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / Recall,0.9335881509794554,0.933588,1.5097945538222748e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / F1_Score,0.9056778679026652,0.905678,1.3209733473740218e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / ROC_AUC,0.9495715668770588,0.949572,4.331229411791426e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / PR_AUC,0.9185079396255272,0.918508,6.03744727545319e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / MCC,0.8154053116638609,0.815405,3.11663860830258e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / Specificity,0.8824561403508772,0.882456,1.403508771424811e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:TAPE / True_Positive,1954.0,1954.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / Accuracy,0.8991538989252229,0.899154,1.0107477710352697e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / Precision,0.879247015610652,0.879247,1.5610651993291924e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / Recall,0.9149546106067844,0.914955,3.893932155607516e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / F1_Score,0.8967454928588152,0.896745,4.928588152042224e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / ROC_AUC,0.934310588343769,0.934311,4.116562309919304e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / PR_AUC,0.8817513657768554,0.881751,3.657768554710117e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / MCC,0.7988783484459296,0.798878,3.484459296654308e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / Specificity,0.8846491228070176,0.884649,1.2280701755518209e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM / True_Positive,1915.0,1915.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / Accuracy,0.8486165104047565,0.848617,4.895952434580408e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / Precision,0.8557931377424167,0.855793,1.3774241669484158e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / Recall,0.8222646918299092,0.822265,3.08170090779214e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / F1_Score,0.8386939571150097,0.838694,4.2884990336666824e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / ROC_AUC,0.9156313652023034,0.915631,3.652023033984264e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / PR_AUC,0.8711688830404709,0.871169,1.1695952906176645e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / MCC,0.696683729523306,0.696684,2.704766939309877e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / Specificity,0.8728070175438597,0.872807,1.7543859698321285e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-CONCAT / True_Positive,1721.0,1721.0,0.0,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / Accuracy,0.7633203750285845,0.76332,3.750285845205426e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / Precision,0.822560975609756,0.822561,2.4390243935634718e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / Recall,0.6445293836598185,0.644529,3.836598184703277e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / F1_Score,0.7227431020626842,0.722743,1.0206268419299393e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / ROC_AUC,0.8649871962514983,0.864987,1.962514983855357e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / PR_AUC,0.8306260244436501,0.830626,2.4443650104011283e-08,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / MCC,0.5333532987372495,0.533353,2.987372494933638e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / Specificity,0.8723684210526316,0.872368,4.210526315384655e-07,5e-06,True
+table_02_model_structure.py,eval_phosformer_test_bar.png / eval_phosformer_test_roc.png,KINBERT:ESM-FROZEN / True_Positive,1349.0,1349.0,0.0,5e-06,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),DB + LYSATE Test / mean PR_AUC,0.8601492912710595,0.86,0.0001492912710595,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),DB + LYSATE Test / mean ROC_AUC,0.8877978069908975,0.888,0.0002021930091025,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),DB Test / mean PR_AUC,0.6960641386799319,0.696,6.413867993193545e-05,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),DB Test / mean ROC_AUC,0.8350244323265574,0.835,2.443232655746641e-05,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),Phosformer Test / mean PR_AUC,0.8318870165118625,0.832,0.0001129834881374,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),Phosformer Test / mean ROC_AUC,0.8680420393235039,0.868,4.203932350388406e-05,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),Phosformer Train / mean PR_AUC,0.8445576721606655,0.845,0.0004423278393345,0.0005,True
+table_02_model_structure.py,benchmark_model_structure_bar.png (facet means),Phosformer Train / mean ROC_AUC,0.8717410681710374,0.872,0.0002589318289626,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,Phosformer / ROC_AUC,0.6809320486622208,0.681,6.795133777925955e-05,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,Phosformer / PR_AUC,0.6353778978870752,0.635,0.0003778978870752,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,Kolossus / ROC_AUC,0.7304418637355363,0.73,0.0004418637355363,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,Kolossus / PR_AUC,0.6580096075966412,0.658,9.607596641147964e-06,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE / ROC_AUC,0.996326411413076,0.996,0.0003264114130758,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE / PR_AUC,0.9959324556310728,0.996,6.754436892730808e-05,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE-No Dark / ROC_AUC,0.9590844592599606,0.959,8.445925996058978e-05,0.0005,True
+table_03_generalizability.py,eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE-No Dark / PR_AUC,0.961239043041645,0.961,0.000239043041645,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Phosformer / ROC_AUC,0.8508170853933678,0.851,0.0001829146066322,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Phosformer / PR_AUC,0.693290189373954,0.693,0.000290189373954,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Kolossus / ROC_AUC,0.7618604248553388,0.762,0.0001395751446612,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Kolossus / PR_AUC,0.6121727862426158,0.612,0.0001727862426158,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE / ROC_AUC,0.9762113286085492,0.976,0.0002113286085493,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE / PR_AUC,0.9492603538110777,0.949,0.0002603538110775,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE-Non Human / ROC_AUC,0.873815202008962,0.874,0.0001847979910379,0.0005,True
+table_03_generalizability.py,eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE-Non Human / PR_AUC,0.7497318016541452,0.75,0.0002681983458547,0.0005,True
+table_03_generalizability.py,eval_yeast reference set,pairs with label=0,3846.0,3846.0,0.0,0.0,True
+table_03_generalizability.py,eval_yeast reference set,pairs with label=1,3215.0,3215.0,0.0,0.0,True
+table_03_generalizability.py,eval_yeast_bar.png / eval_yeast_roc.png,Phosformer / ROC_AUC,0.6953940148274671,0.695,0.0003940148274671,0.0005,True
+table_03_generalizability.py,eval_yeast_bar.png / eval_yeast_roc.png,Phosformer / PR_AUC,0.602224197789045,0.602,0.000224197789045,0.0005,True
+table_03_generalizability.py,eval_yeast_bar.png / eval_yeast_roc.png,Kolossus / ROC_AUC,0.6360685376093116,0.636,6.853760931158082e-05,0.0005,True
+table_03_generalizability.py,eval_yeast_bar.png / eval_yeast_roc.png,Kolossus / PR_AUC,0.5693041847699966,0.569,0.0003041847699966,0.0005,True
+table_03_generalizability.py,eval_yeast_bar.png / eval_yeast_roc.png,KINBERT:TAPE / ROC_AUC,0.7128909759811854,0.713,0.0001090240188145,0.0005,True
+table_03_generalizability.py,eval_yeast_bar.png / eval_yeast_roc.png,KINBERT:TAPE / PR_AUC,0.6735736645256669,0.674,0.0004263354743331,0.0005,True
+table_03_generalizability.py,benchmark_generalizability_bar.png (facet means),Dark Kinase Holdout / mean PR_AUC,0.8126397510391086,0.813,0.0003602489608913,0.0005,True
+table_03_generalizability.py,benchmark_generalizability_bar.png (facet means),Dark Kinase Holdout / mean ROC_AUC,0.8416961957676984,0.842,0.0003038042323015,0.0005,True
+table_03_generalizability.py,benchmark_generalizability_bar.png (facet means),Non-Human Kinase Holdout / mean PR_AUC,0.7511137827704482,0.751,0.0001137827704481,0.0005,True
+table_03_generalizability.py,benchmark_generalizability_bar.png (facet means),Non-Human Kinase Holdout / mean ROC_AUC,0.8656760102165545,0.866,0.0003239897834454,0.0005,True
+table_03_generalizability.py,benchmark_generalizability_bar.png (facet means),Yeast x Human PK / mean PR_AUC,0.6150340156949028,0.615,3.401569490280032e-05,0.0005,True
+table_03_generalizability.py,benchmark_generalizability_bar.png (facet means),Yeast x Human PK / mean ROC_AUC,0.6814511761393214,0.681,0.0004511761393213,0.0005,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,Phosformer / ROC_AUC,0.4947444238305757,0.494744,4.238305756909533e-07,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,Phosformer / PR_AUC,0.7593621558578058,0.759362,1.558578057725413e-07,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,Kolossus / ROC_AUC,0.4009837541317244,0.400984,2.458682756278918e-07,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,Kolossus / PR_AUC,0.6915478585747515,0.691548,1.4142524851212812e-07,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE / ROC_AUC,0.7584726412178475,0.758473,3.587821524320134e-07,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE / PR_AUC,0.8798212494099231,0.879821,2.494099231586944e-07,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE + Geometry / ROC_AUC,0.7248609574758718,0.724861,4.252412821870166e-08,5e-06,True
+table_04_ksi_screen.py,eval_ksi_bar.png / eval_ksi_roc.png,KINBERT:TAPE + Geometry / PR_AUC,0.8526527802721633,0.852653,2.1972783670332066e-07,5e-06,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / NEK10 logit,3.4531,3.4531,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / ICK logit,3.1406,3.1406,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / PCTAIRE1 logit,3.0625,3.0625,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / MOK logit,3.0,3.0,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / PCTAIRE2 logit,2.7812,2.7812,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / GSK3B logit,2.7031,2.7031,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / GSK3A logit,2.5469,2.5469,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / CDC7 logit,2.4531,2.4531,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / CDKL2 logit,2.375,2.375,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,SARS2:Nucleocapsid S202 / PCTAIRE3 logit,2.3594,2.3594,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,number of kinases on the x axis,23.0,23.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,kinase axis matches the figure,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,number of phospho-sites on the y axis,20.0,20.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_kinase_psite_demo,colour-scale maximum,8.0625,8.0625,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,number of kinases on the x axis,22.0,22.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,number of drugs on the y axis,44.0,44.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,grid cells,968.0,968.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets AKT1,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets ALK,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets CDC2,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets CDK2,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets CDK4,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets CDK5,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets CDK7,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets CK1e,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets Erk1,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets Erk2,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets Erk7,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets FLT3,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets FLT4,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets FMS,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets GSK3B,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets JAK2,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets KDR,1.0,1.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets PFTAIRE2,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets PKCa,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets PKCb,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets PKCe,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_kinase_demo,XL820 targets SRPK2,0.0,0.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_psite_demo,number of drugs on the x axis,42.0,42.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_psite_demo,number of phospho-sites on the y axis,19.0,19.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_psite_demo,grid cells,798.0,798.0,0.0,0.0,True
+table_05_virus_demo.py,eval_virus_dms_drug_psite_demo,colour-scale maximum,4.03125,4.03125,0.0,1e-09,True
+table_05_virus_demo.py,eval_virus_dms_drug_psite_demo,no rows for a drug named Erk1,0.0,0.0,0.0,0.0,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,grid cells,17554.0,17554.0,0.0,0.0,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,kinases on the x axis,262.0,262.0,0.0,0.0,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,phospho-sites on the y axis,67.0,67.0,0.0,0.0,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,colour-scale maximum,8.0625,8.0625,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,CK1e present among the kinases,1.0,1.0,0.0,0.0,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,SARS2:Nucleocapsid S202 / NEK10 logit,3.4531,3.4531,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,SARS2:Nucleocapsid S202 / ICK logit,3.1406,3.1406,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_kinase_psite_fulldrug,SARS2:Nucleocapsid S202 / PCTAIRE1 logit,3.0625,3.0625,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / ZIKA E S72 CK1e logit,3.2656,3.2656,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / ZIKA E S72 CK1e prob,0.9697,0.9697,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid T141 CDK7 logit,3.9688,3.9688,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid T141 CDK7 prob,0.9843,0.9843,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid S26 CK1e logit,5.5625,5.5625,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid S26 CK1e prob,0.9969,0.9969,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid T198 CDK2 logit,4.3438,4.3438,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid T198 CDK2 prob,0.9893,0.9893,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid T205 CDK2 logit,3.2031,3.2031,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:Nucleocapsid T205 CDK2 prob,0.9666,0.9666,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:ORF9b T72 Erk2 logit,3.1562,3.1562,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:ORF9b T72 Erk2 prob,0.9652,0.9652,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:ORF9b T72 Erk1 logit,2.7969,2.7969,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:ORF9b T72 Erk1 prob,0.9504,0.9504,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:ORF9b T72 CDC2 logit,2.0938,2.0938,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib / SARS2:ORF9b T72 CDC2 prob,0.9026,0.9026,0.0,5e-05,True
+table_06_virus_full.py,eval_virus_dms_drug_kinase_fulldrug,Seliciclib rows before the two-per-kinase cut,8.0,8.0,0.0,0.0,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,Fostamatinib / influenza M1 Q208 IRAK1 logit,7.5312,7.5312,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,Fostamatinib / influenza M1 Q208 MLK3 logit,7.0625,7.0625,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,Fostamatinib / influenza M1 Q208 PKR logit,6.8438,6.8438,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,Fostamatinib / influenza M1 Q208 SRM logit,5.7188,5.7188,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,Fostamatinib / influenza M1 Q208 BMX logit,5.0312,5.0312,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,colour-scale maximum,4.03125,4.03125,0.0,1e-09,True
+table_06_virus_full.py,eval_virus_dms_drug_psite_fulldrug,grid cells,10680.0,10613.0,67.0,0.0,False
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:ESM-FROZEN,0.924013904781996,0.9238972791400252,0.0001166256419709,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:ESM-CONCAT,0.9645532697963912,0.9644366566302496,0.0001166131661416,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:ESM,0.9685204064694554,0.9684038016758864,0.000116604793569,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / KINBERT:TAPE,0.9701083747651404,0.9699917752229206,0.0001165995422197,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / Kolossus,0.7203907736257954,0.7202741681552924,0.0001166054705029,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / PR_AUC / Phosformer,0.6140086644340907,0.6138920668019836,0.0001165976321071,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:ESM-FROZEN,0.9398078595132906,0.9396912474603144,0.0001166120529761,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:ESM-CONCAT,0.9681647814161378,0.9680481891120942,0.0001165923040435,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:ESM,0.9720473455137452,0.9719306843248088,0.0001166611889364,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / KINBERT:TAPE,0.9735057759391968,0.9733891707597616,0.0001166051794352,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / Kolossus,0.7787912362220243,0.7786745739637089,0.0001166622583154,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB + LYSATE Test / ROC_AUC / Phosformer,0.695169550679039,0.6950529763246965,0.0001165743543424,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:ESM-FROZEN,0.6858387267173276,0.6857220802376303,0.0001166464796973,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:ESM-CONCAT,0.6624608707382251,0.6623442529965998,0.0001166177416253,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:ESM,0.7537500845725754,0.7536334128142449,0.0001166717583305,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / KINBERT:TAPE,0.7799899605524091,0.7798732836016811,0.000116676950728,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / Kolossus,0.6069650821373055,0.6068484849193791,0.0001165972179263,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / PR_AUC / Phosformer,0.6880799524964774,0.6879633175100566,0.0001166349864207,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:ESM-FROZEN,0.8194554114471555,0.8193387669714206,0.0001166444757348,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:ESM-CONCAT,0.8212956266418111,0.8211789856537451,0.0001166409880659,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:ESM,0.8704870287731661,0.8703703538383951,0.0001166749347709,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / KINBERT:TAPE,0.8871393163510201,0.8870226590509298,0.0001166573000902,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / Kolossus,0.7579242927316332,0.757807684426342,0.0001166083052911,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),DB Test / ROC_AUC / Phosformer,0.8545447305927476,0.8544281440185116,0.0001165865742359,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:ESM-FROZEN,0.8307426459680629,0.8306260244436501,0.0001166215244128,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:ESM-CONCAT,0.8712854779327563,0.8711688830404709,0.0001165948922854,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:ESM,0.8818679760112254,0.8817513657768554,0.0001166102343699,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / KINBERT:TAPE,0.918624583072962,0.9185079396255272,0.0001166434474346,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / Kolossus,0.7508817610258475,0.7507651018879098,0.0001166591379376,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / PR_AUC / Phosformer,0.7386193679392405,0.7385027842967614,0.0001165836424791,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:ESM-FROZEN,0.8651038004919287,0.8649871962514983,0.0001166042404303,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:ESM-CONCAT,0.915747959857338,0.9156313652023034,0.0001165946550347,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:ESM,0.934427257709552,0.934310588343769,0.0001166693657829,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / KINBERT:TAPE,0.94968824762682,0.9495715668770588,0.0001166807497612,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / Kolossus,0.7619306164489772,0.7618140250291281,0.000116591419849,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Test / ROC_AUC / Phosformer,0.7820541617481498,0.7819374942372654,0.0001166675108843,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:ESM-FROZEN,0.8216895982666089,0.8215729517453462,0.0001166465212627,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:ESM-CONCAT,0.8656806800097326,0.8655640154006017,0.0001166646091309,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:ESM,0.9142651557206992,0.914148556807688,0.000116598913011,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / KINBERT:TAPE,0.9209670858244596,0.9208504196689172,0.0001166661555425,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / Kolossus,0.728842568098258,0.7287259011962837,0.0001166669019743,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / PR_AUC / Phosformer,0.8166008506425204,0.816484188145156,0.0001166624973644,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:ESM-FROZEN,0.8513209921109021,0.8512043770415066,0.0001166150693954,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:ESM-CONCAT,0.9078884885903716,0.9077718336619116,0.00011665492846,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:ESM,0.9429804342134624,0.942863835191479,0.0001165990219834,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / KINBERT:TAPE,0.9470877197258546,0.9469710861142993,0.0001166336115553,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / Kolossus,0.7369800257436818,0.7368634416280018,0.00011658411568,0.002,True
+verify_bars_against_pdf.py,benchmark_model_structure_bar.pdf (measured from the figure),Phosformer Train / ROC_AUC / Phosformer,0.8448884335394032,0.8447718353890259,0.0001165981503773,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / Phosformer,0.6354883123584748,0.6353778978870752,0.0001104144713995,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / Kolossus,0.6581201046101106,0.6580096075966412,0.0001104970134694,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / KINBERT:TAPE-No Dark,0.9613495233628948,0.961239043041645,0.0001104803212498,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / PR_AUC / KINBERT:TAPE,0.9960429413698002,0.9959324556310728,0.0001104857387274,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / Phosformer,0.6810425468380795,0.6809320486622208,0.0001104981758587,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / Kolossus,0.7305523473940857,0.7304418637355363,0.0001104836585493,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / KINBERT:TAPE-No Dark,0.9591949722031756,0.9590844592599606,0.000110512943215,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Dark Kinase Holdout / ROC_AUC / KINBERT:TAPE,0.9964368760689796,0.996326411413076,0.0001104646559034,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / Phosformer,0.693400693281289,0.693290189373954,0.0001105039073349,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / Kolossus,0.612283279944684,0.6121727862426158,0.0001104937020681,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / KINBERT:TAPE-Non Human,0.7498423116912037,0.7497318016541452,0.0001105100370585,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / PR_AUC / KINBERT:TAPE,0.9493707840952272,0.9492603538110777,0.0001104302841496,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / Phosformer,0.8509276072601399,0.8508170853933678,0.0001105218667721,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / Kolossus,0.7619709033602262,0.7618604248553388,0.0001104785048874,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / KINBERT:TAPE-Non Human,0.8739256722138922,0.873815202008962,0.0001104702049301,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Non-Human Kinase Holdout / ROC_AUC / KINBERT:TAPE,0.9763218280321304,0.9762113286085492,0.0001104994235813,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / PR_AUC / Phosformer,0.6023346128499528,0.602224197789045,0.0001104150609078,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / PR_AUC / Kolossus,0.5694146472662533,0.5693041847699966,0.0001104624962567,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / PR_AUC / KINBERT:TAPE,0.6736841571086009,0.6735736645256669,0.0001104925829339,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / ROC_AUC / Phosformer,0.6955044976118642,0.6953940148274671,0.000110482784397,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / ROC_AUC / Kolossus,0.6361789667527671,0.6360685376093116,0.0001104291434554,0.002,True
+verify_bars_against_pdf.py,benchmark_generalizability_bar.pdf (measured from the figure),Yeast x Human PK / ROC_AUC / KINBERT:TAPE,0.7130014072792247,0.7128909759811854,0.0001104312980392,0.002,True

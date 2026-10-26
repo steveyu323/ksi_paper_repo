@@ -1,0 +1,31 @@
+figure,quantity,regenerated,figure_value,abs_diff,tolerance,match
+eval_dark_test_bar.png / eval_dark_test_roc.png,Phosformer / ROC_AUC,0.6809320486622208,0.681,6.795133777925955e-05,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,Phosformer / PR_AUC,0.6353778978870752,0.635,0.000377897887075207,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,Kolossus / ROC_AUC,0.7304418637355363,0.73,0.00044186373553634084,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,Kolossus / PR_AUC,0.6580096075966412,0.658,9.607596641147964e-06,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE / ROC_AUC,0.9963264114130759,0.996,0.00032641141307587773,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE / PR_AUC,0.9959324556310727,0.996,6.754436892730808e-05,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE-No Dark / ROC_AUC,0.9590844592599606,0.959,8.445925996058978e-05,0.0005,True
+eval_dark_test_bar.png / eval_dark_test_roc.png,KINBERT:TAPE-No Dark / PR_AUC,0.961239043041645,0.961,0.0002390430416450151,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Phosformer / ROC_AUC,0.8508170853933678,0.851,0.00018291460663222292,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Phosformer / PR_AUC,0.693290189373954,0.693,0.00029018937395408617,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Kolossus / ROC_AUC,0.7618604248553388,0.762,0.00013957514466123033,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,Kolossus / PR_AUC,0.6121727862426158,0.612,0.00017278624261585218,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE / ROC_AUC,0.9762113286085493,0.976,0.00021132860854933266,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE / PR_AUC,0.9492603538110775,0.949,0.00026035381107758493,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE-Non Human / ROC_AUC,0.873815202008962,0.874,0.00018479799103798822,0.0005,True
+eval_nonhuman_test_bar.png / eval_nonhuman_test_roc.png,KINBERT:TAPE-Non Human / PR_AUC,0.7497318016541452,0.75,0.0002681983458547865,0.0005,True
+eval_yeast reference set,pairs with label=0,3846.0,3846.0,0.0,0.0,True
+eval_yeast reference set,pairs with label=1,3215.0,3215.0,0.0,0.0,True
+eval_yeast_bar.png / eval_yeast_roc.png,Phosformer / ROC_AUC,0.6953940148274671,0.695,0.00039401482746714844,0.0005,True
+eval_yeast_bar.png / eval_yeast_roc.png,Phosformer / PR_AUC,0.602224197789045,0.602,0.00022419778904503307,0.0005,True
+eval_yeast_bar.png / eval_yeast_roc.png,Kolossus / ROC_AUC,0.6360685376093116,0.636,6.853760931158082e-05,0.0005,True
+eval_yeast_bar.png / eval_yeast_roc.png,Kolossus / PR_AUC,0.5693041847699966,0.569,0.00030418476999660715,0.0005,True
+eval_yeast_bar.png / eval_yeast_roc.png,KINBERT:TAPE / ROC_AUC,0.7128909759811854,0.713,0.00010902401881451862,0.0005,True
+eval_yeast_bar.png / eval_yeast_roc.png,KINBERT:TAPE / PR_AUC,0.6735736645256669,0.674,0.00042633547433312824,0.0005,True
+benchmark_generalizability_bar.png (facet means),Dark Kinase Holdout / mean PR_AUC,0.8126397510391086,0.813,0.0003602489608913739,0.0005,True
+benchmark_generalizability_bar.png (facet means),Dark Kinase Holdout / mean ROC_AUC,0.8416961957676984,0.842,0.0003038042323015855,0.0005,True
+benchmark_generalizability_bar.png (facet means),Non-Human Kinase Holdout / mean PR_AUC,0.7511137827704482,0.751,0.00011378277044815643,0.0005,True
+benchmark_generalizability_bar.png (facet means),Non-Human Kinase Holdout / mean ROC_AUC,0.8656760102165545,0.866,0.00032398978344549967,0.0005,True
+benchmark_generalizability_bar.png (facet means),Yeast x Human PK / mean PR_AUC,0.6150340156949028,0.615,3.401569490280032e-05,0.0005,True
+benchmark_generalizability_bar.png (facet means),Yeast x Human PK / mean ROC_AUC,0.6814511761393214,0.681,0.00045117613932132983,0.0005,True

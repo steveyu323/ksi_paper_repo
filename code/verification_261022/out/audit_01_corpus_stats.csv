@@ -1,0 +1,107 @@
+section,quantity,manuscript_value,recomputed_value,verdict,note
+recomputed,v2.n_rows,,526608,,
+recomputed,v2.n_pos_rows,,263304,,
+recomputed,v2.n_kinase_acc,,2021,,
+recomputed,v2.n_kinase_domain_seq,,1604,,
+recomputed,v2.n_site_pairs,,162447,,
+recomputed,v2.n_seq_pairs,,147488,,
+recomputed,v2.n_nb_ksi_entry,,170606,,
+recomputed,v1.n_rows,,119468,,
+recomputed,v1.n_pos_rows,,59734,,
+recomputed,v1.n_kinase_acc,,1995,,
+recomputed,v1.n_kinase_domain_seq,,1561,,
+recomputed,v1.n_site_pairs,,29894,,
+recomputed,v1.n_seq_pairs,,26267,,
+recomputed,v1.n_nb_ksi_entry,,29077,,
+recomputed,organism.nunique_whole_annotation_table,,92,,cell 20 n_org: not restricted to the corpus
+recomputed,organism.corpus_kinases_mapped_to_annotation,,1971,,
+recomputed,organism.nunique_over_corpus_kinases,,92,,
+recomputed,n_kinase.cell20_recipe_len_lysate_plus_db,,2304,,len() of two concatenated lists -- NOT deduplicated
+recomputed,n_kinase.union_lysate_db,,2000,,
+recomputed,n_kinase.db_only_nunique,,1973,,
+recomputed,n_kinase.lysate_only_nunique,,331,,
+recomputed,n_kinase.lysate_db_overlap,,304,,
+recomputed,v2.S3_bin_seqdedup[1-5],,1129,,
+recomputed,v2.S3_bin_seqdedup[5-20],,290,,
+recomputed,v2.S3_bin_seqdedup[20-50],,79,,
+recomputed,v2.S3_bin_seqdedup[50-100],,63,,
+recomputed,v2.S3_bin_seqdedup[100-200],,66,,
+recomputed,v2.S3_bin_seqdedup[>200],,189,,
+recomputed,v2.S3_bin_seqdedup_total,,1816,,
+recomputed,v2.S3_bin_sitelevel[1-5],,1274,,
+recomputed,v2.S3_bin_sitelevel[5-20],,325,,
+recomputed,v2.S3_bin_sitelevel[20-50],,86,,
+recomputed,v2.S3_bin_sitelevel[50-100],,63,,
+recomputed,v2.S3_bin_sitelevel[100-200],,67,,
+recomputed,v2.S3_bin_sitelevel[>200],,206,,
+recomputed,v2.S3_bin_sitelevel_total,,2021,,
+recomputed,v1.S3_bin_seqdedup[1-5],,1211,,
+recomputed,v1.S3_bin_seqdedup[5-20],,375,,
+recomputed,v1.S3_bin_seqdedup[20-50],,113,,
+recomputed,v1.S3_bin_seqdedup[50-100],,44,,
+recomputed,v1.S3_bin_seqdedup[100-200],,24,,
+recomputed,v1.S3_bin_seqdedup[>200],,23,,
+recomputed,v1.S3_bin_seqdedup_total,,1790,,
+recomputed,v1.S3_bin_sitelevel[1-5],,1351,,
+recomputed,v1.S3_bin_sitelevel[5-20],,412,,
+recomputed,v1.S3_bin_sitelevel[20-50],,123,,
+recomputed,v1.S3_bin_sitelevel[50-100],,54,,
+recomputed,v1.S3_bin_sitelevel[100-200],,30,,
+recomputed,v1.S3_bin_sitelevel[>200],,25,,
+recomputed,v1.S3_bin_sitelevel_total,,1995,,
+recomputed,upset.pair[Phospho.ELM],,2299,,
+recomputed,upset.pair[PhosphoSitePlus],,22073,,
+recomputed,upset.pair[Kinasephos3.0],,32154,,
+recomputed,upset.pair[Cell Lysate LC-MS],,132284,,
+recomputed,upset.pair.union_of_four_sources,,166161,,
+recomputed,upset.kinase[Cell Lysate LC-MS],,331,,
+recomputed,upset.kinase[Phospho.ELM],,336,,
+recomputed,upset.kinase[PhosphoSitePlus],,818,,
+recomputed,upset.kinase[Kinasephos3.0],,2277,,
+recomputed,upset.kinase.union_of_four_sources,,2357,,
+recomputed,upset.organism[Cell Lysate LC-MS],,1,,
+recomputed,upset.organism[PhosphoSitePlus],,10,,
+recomputed,upset.organism[Phospho.ELM],,11,,
+recomputed,upset.organism[Kinasephos3.0],,92,,
+recomputed,upset.organism.union_of_four_sources,,92,,
+claim,01.kinases.text_SuppTableS1_SuppFigS1a,2304,2021,MISMATCH,"2,304 = len(lysate+db) un-deduplicated; corpus has 2,021 distinct accessions"
+claim,01.kinases.Fig02_artwork,2021,2021,MATCH,
+claim,01.pairs.text_SuppTableS1_SuppFigS1a,147488,147488,MATCH,"unique (substrate_seq_15aa, kinase_domain_seq)"
+claim,01.pairs.Fig02_artwork,162447,162447,MATCH,"unique (substrate, kinase, p_aa, p_ind) -- both are real, different units"
+claim,01.text.pairs_attributed_to_DB_only_corpus,147488,26267,MISMATCH,"main.tex l.199 attributes 147,488 to the database-only corpus; DB-only is 26,267 sequence pairs (29,894 site pairs / 29,077 by the notebook's n_ksi_entry key). 147,488 is the DB+lysate number."
+claim,01.text.kinases_attributed_to_DB_only_corpus,2304,1995,MISMATCH,"same sentence; DB-only corpus has 1,995 distinct kinase accessions"
+claim,01.organisms.text_and_Fig02,92,92,MATCH,cell 20 used the whole annotation table (92 organisms); restricted to corpus kinases it is 92
+claim,01.provenance.2304_is_len_of_concat_lists,2304,2304,MATCH,true union = 2000
+claim,02.S3.DBplusLysate[1-5],1129,1129,MATCH,
+claim,02.S3.DBplusLysate[5-20],290,290,MATCH,
+claim,02.S3.DBplusLysate[20-50],79,79,MATCH,
+claim,02.S3.DBplusLysate[50-100],63,63,MATCH,
+claim,02.S3.DBplusLysate[100-200],66,66,MATCH,
+claim,02.S3.DBplusLysate[>200],189,189,MATCH,
+claim,02.S3.DBplusLysate.total,1816,1816,MATCH,the bins are exhaustive and non-overlapping; the total IS the kinase count of the sequence-deduplicated frame
+claim,02.S3.DBonly[1-5],1211,1211,MATCH,
+claim,02.S3.DBonly[5-20],375,375,MATCH,
+claim,02.S3.DBonly[20-50],113,113,MATCH,
+claim,02.S3.DBonly[50-100],44,44,MATCH,
+claim,02.S3.DBonly[100-200],24,24,MATCH,
+claim,02.S3.DBonly[>200],23,23,MATCH,
+claim,02.S3.DBonly.total,1790,1790,MATCH,
+claim,02.S3.total_vs_2304_gap,488,488,MATCH,"explained as 2304-2021=283 double-counted + 2021-1816=205 accessions dropped by the (s15,kdom) dedup (2021 accessions share only 1604 distinct domain sequences)"
+claim,01.Fig02_panel.kinases[Cell Lysate LC-MS],331,331,MATCH,
+claim,01.Fig02_panel.kinases[Phospho.ELM],336,336,MATCH,
+claim,01.Fig02_panel.kinases[PhosphoSitePlus],818,818,MATCH,
+claim,01.Fig02_panel.kinases[Kinasephos3.0],2277,2277,MATCH,
+claim,01.Fig02_panel.organisms[Cell Lysate LC-MS],1,1,MATCH,
+claim,01.Fig02_panel.organisms[PhosphoSitePlus],10,10,MATCH,
+claim,01.Fig02_panel.organisms[Phospho.ELM],11,11,MATCH,
+claim,01.Fig02_panel.organisms[Kinasephos3.0],92,92,MATCH,
+claim,01.Fig02_rowalign.organisms[Cell Lysate LC-MS],1,1,MATCH,Fig 02 panel C row label vs ks_pair_upset_norganism.pdf
+claim,01.Fig02_rowalign.organisms[Phospho.ELM],10,11,MISMATCH,Fig 02 panel C row label vs ks_pair_upset_norganism.pdf
+claim,01.Fig02_rowalign.organisms[PhosphoSitePlus],11,10,MISMATCH,Fig 02 panel C row label vs ks_pair_upset_norganism.pdf
+claim,01.Fig02_rowalign.organisms[Kinasephos3.0],92,92,MATCH,Fig 02 panel C row label vs ks_pair_upset_norganism.pdf
+claim,01.comparator.phosformer_kinases,800,,UNRESOLVED,quoted from the source publications in eval_0_datasource_stats.ipynb cell 14 (markdown); no code on this tree recomputes it
+claim,01.comparator.phosformer_organisms,13,,UNRESOLVED,quoted from the source publications in eval_0_datasource_stats.ipynb cell 14 (markdown); no code on this tree recomputes it
+claim,01.comparator.phosformer_pairs,24534,,UNRESOLVED,quoted from the source publications in eval_0_datasource_stats.ipynb cell 14 (markdown); no code on this tree recomputes it
+claim,01.comparator.deepkinzero_kinases,343,,UNRESOLVED,quoted from the source publications in eval_0_datasource_stats.ipynb cell 14 (markdown); no code on this tree recomputes it
+claim,01.comparator.deepkinzero_organisms,1,,UNRESOLVED,quoted from the source publications in eval_0_datasource_stats.ipynb cell 14 (markdown); no code on this tree recomputes it
+claim,01.comparator.deepkinzero_pairs,13426,,UNRESOLVED,quoted from the source publications in eval_0_datasource_stats.ipynb cell 14 (markdown); no code on this tree recomputes it

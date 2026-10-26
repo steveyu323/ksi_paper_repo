@@ -1,0 +1,26 @@
+total designed substrates: 3928
+
+by library and class:
+library                    substrate_class    n
+     ST        Candidate (PhosphoSitePlus) 1513
+     ST               Control (documented)  465
+      Y        Candidate (PhosphoSitePlus) 1240
+      Y Candidate (animal phosphoproteome)  559
+      Y               Control (documented)  151
+
+identity mapping:
+mapping_status
+mapped      3927
+unmapped       1
+ambiguous (>1 source protein): 2069
+
+control polarity (spike-ins only):
+control_polarity
+positive    449
+negative    165
+mixed         2
+
+recovered in screen:
+recovered_in_screen
+True     3896
+False      32

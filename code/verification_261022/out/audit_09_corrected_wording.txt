@@ -1,0 +1,140 @@
+AUDIT 09 - CORRECTED WORDING DRAFTS (substrate library + spike-in provenance)
+Generated alongside audit_09_spikein_provenance.py; every number below is
+printed by that script.
+
+=============================================================================
+(a) RESULTS SENTENCE  -- replaces "a library of ~2,000 substrate peptides,
+    consisting of ~1,700 sequence-diverse candidates sampled from human
+    phosphoproteomic data and ~300 documented kinase-substrate pairs as
+    spike-in controls"
+=============================================================================
+
+We designed two barcoded substrate libraries totalling 3,928 ordered 15-mer
+peptides (3,918 distinct sequences; Ser/Thr library n = 1,978, Tyr library
+n = 1,950, with 10 sequences ordered in both). Of these, 3,312 are
+sequence-diverse candidates drawn from curated phosphosite records (2,753 from
+PhosphoSitePlus and 559, in the Tyr library only, from a broader animal
+phosphoproteome compilation), and 616 are control windows carried over from
+the kinase-substrate interaction database that KINBERT was trained on: 449
+annotated as substrates of at least one of the nine targeted kinases, 165
+drawn from the database's non-interacting (label-negative) pool, and 2
+annotated in both directions. Because these controls were sampled from
+KINBERT's own training and held-out splits, they are used here only as
+wet-lab performance controls and not as an independent benchmark of the model
+(see Methods, "Benchmarking against database annotations").
+
+=============================================================================
+(b) METHODS PARAGRAPH  -- replaces "Approximately 300 documented
+    kinase-substrate pairs were sampled from a curated KSI dataset after
+    removal of redundant substrate sequences (Levenshtein distance < 7),
+    together with ~1,700 additional candidate substrates ... (retaining
+    sequences with Levenshtein distance > 8 from all other library members)"
+=============================================================================
+
+Substrate library design. Control ("spike-in") windows were selected from the
+predictions of two KINBERT checkpoints on the curated kinase-substrate
+interaction database (interaction_classed_221017), separately for the nine
+kinases targeted by the two libraries (Ser/Thr: Q8N5S9, P53350, Q86TW2,
+P23443, Q9NR20, O43318; Tyr: P06241, P07949, Q6J9G0) and for each
+phospho-amino-acid-binding-domain reporter (SH2, 14-3-3, WW, FHA). Three
+classes were taken: database-positive pairs from the model's held-out test
+split, database-positive pairs from its training split, and database-negative
+pairs from its training split on which both checkpoints agreed (up to 30, 30
+and 20 windows per kinase x reporter x phosphoacceptor cell, respectively).
+Within each cell, candidate windows were greedily de-duplicated so that any
+two retained windows differ by a Levenshtein distance of at least 7, and the
+highest- (or, for negatives, lowest-) scoring survivors were kept. This
+yielded 616 distinct control windows (465 Ser/Thr, 151 Tyr) spanning 646
+distinct (kinase, window) pairs: 449 windows documented as substrates, 165
+drawn from the database-negative pool, and 2 appearing in both classes.
+
+Candidate substrates were drawn from the same curated database (all records,
+irrespective of kinase) and, for the Tyr library only, from a compiled animal
+phosphosite table. Each pool was greedily de-duplicated with the same
+procedure, retaining windows at pairwise Levenshtein distance of at least 9
+(PhosphoSitePlus-derived pool) or at least 11 (animal pool); the merged Tyr
+pool was re-filtered at distance 9. Random subsamples were then combined with
+the control windows and de-duplicated by sequence, giving 1,978 Ser/Thr and
+1,950 Tyr oligos (3,928 rows, 3,918 distinct sequences). All windows are
+15 residues with the phosphoacceptor at position 8; every Ser/Thr-library
+window is Ser- or Thr-centred, and 45 Tyr-library windows are Ser/Thr-centred
+because the PhosphoSitePlus pool for that library was selected by kinase
+family (tyrosine kinases) rather than by phosphoacceptor identity.
+
+Identity assignment is intrinsically ambiguous for a 15-mer: 2,069 of the
+3,928 designed rows (53%) match an identical window in more than one human or
+animal protein (up to 68 proteins for a single window), so the accession and
+site reported in Table S13 are a deterministic representative (lowest
+accession, then lowest site index) and the full match list is given in the
+same row. One window, VGAPIAVSAFYAESC, could not be mapped to any accession
+and is reported without identity. 32 of the 3,918 distinct designed windows
+were not recovered in the screen.
+
+Benchmarking against database annotations. The annotated pair set used in
+Table S10 and Fig. [x] is NOT the designed control set. It is the
+intersection of the screened (kinase, 15-mer) matrix with a combined
+annotation table built from (i) the curated interaction database, excluding
+records whose only evidence source was mass spectrometry, yeast two-hybrid,
+PhosphoNetworks, DeepKinZero, Phospho.ELM or KinasePhos, and (ii) the
+label-negative rows of KINBERT v1's held-out database test split, which are
+randomly sampled decoy pairs rather than experimentally demonstrated
+non-substrates. Three kinase constructs (KS6B1_HUMAN_active, KS6B1_HUMAN_wt,
+PLK1_HUMAN_active) were excluded. This gives 403 annotated rows over 385
+distinct (kinase, 15-mer) pairs: 329 rows annotated positive and 74 annotated
+negative.
+
+Because both the annotation table and KINBERT's training corpus derive from
+the same curated database, this benchmark is not independent of the model.
+Matching on the exact (kinase catalytic-domain sequence, 15-mer) key used by
+the training files, 764 of the 29,799 screened pairs (2.6%) occur somewhere in
+KINBERT's public-data corpus, and 310 of the 385 benchmark pairs (80.5%) do:
+205 in the training split, 29 in validation, 38 in test and 38 in the
+secondary test split. A further 127 of the 385 (33%) are in the training split
+of the screen-derived phospho-PCA fine-tuning set, so 338 of 385 (88%) were
+seen on the training side of one or the other model. Table S10 should
+therefore be read as a concordance measurement between the screen and the
+curated database, not as a held-out evaluation of KINBERT; the model's
+held-out performance is reported separately on splits that exclude these
+pairs.
+
+=============================================================================
+(c) TABLE S13 CAPTION  -- corrections to apply
+=============================================================================
+
+KEEP AS IS (all reproduce exactly):
+  3,928 designed entries; Ser/Thr 1,978 + Tyr 1,950
+  616 spike-in/control entries (Ser/Thr 465, Tyr 151)
+  3,312 sequence-diverse candidates; 2,753 PhosphoSitePlus; 559 animal (Tyr only)
+  449 / 165 / 2 polarity split
+  3,918 distinct sequences; 10 in both libraries
+  45 Ser/Thr-centred Tyr-library windows, all PhosphoSitePlus
+  2,069 windows (53%) multi-mapping
+  VGAPIAVSAFYAESC unmappable
+  32 designed substrates not recovered
+  Levenshtein 7 / 9 / 11
+
+CHANGE:
+  1. "616 documented spike-in controls" ->
+     "616 control windows carried over from the kinase-substrate interaction
+      database used to train KINBERT (sampled from that model's own training
+      and held-out splits; spikein_db_split records which)"
+  2. "165 documented non-substrates as negative controls" ->
+     "165 drawn from the database's label-negative (non-interacting) pool;
+      these are database negatives, not experimentally demonstrated
+      non-substrates"
+  3. "2,069 windows (53%)" -> add the denominator: "2,069 of the 3,928 ordered
+     rows (53%); 2,063 of the 3,918 distinct windows"
+  4. Levenshtein thresholds -> state them as retention bounds, not removal
+     bounds: "controls de-duplicated to pairwise Levenshtein >= 7;
+     PhosphoSitePlus candidate pool >= 9; animal candidate pool >= 11"
+  5. "559 from animal phosphoproteomic data" -> add a footnote: 10 Tyr-library
+     windows are present in BOTH the PhosphoSitePlus and animal pools; this
+     table assigns them to PhosphoSitePlus, whereas the design notebook's own
+     `set` column assigns them to the animal pool (2,743 / 569). Either split
+     is defensible; the table should say which it uses.
+  6. Add one sentence: "32 designed windows were not recovered in the screen;
+     the manifest reports the designed library, with recovered_in_screen
+     marking the screened subset."
+  7. Verify the Zenodo DOI (10.5281/zenodo.19616157) and re-deposit the CSV -
+     build_table_s13.py's README flags that the current CSV will not match an
+     existing deposit unless re-uploaded.
